@@ -1,0 +1,232 @@
+#hotel-detail .container{
+}
+#hotel-detail .content{
+    padding: 20px 0;
+    color: black;
+    text-align: center;
+}
+#hotel-detail>img{
+    width: 100%;
+}
+
+#hotel-detail .content>p{
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+#hotel-detail .content a{
+    color: #828282;
+}
+#hotel-detail .content h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#hotel-detail .content .box>div>img{
+    width: 100%;
+}
+#hotel-detail .content .box .left{
+    width: 560px;
+}
+
+#hotel-detail .content .box .left p{
+    margin-top: 25px;
+    font-size: 15px;
+    color: #828282;
+    text-align: left;
+    line-height:30px;
+}
+
+#hotel-detail .content .box .left p strong {
+    color: #404041;
+    font-size: 20px;
+}
+
+#hotel-detail .content .box .left p img{
+    width:100%;
+}
+#hotel-detail .content .box .right{
+    margin-left: 15px;
+    width: 399px;
+}
+
+#hotel-detail .content .box .right>div{
+    padding: 5px;
+    background: #007069;
+}
+#hotel-detail .content .box .right>div>img{
+    width: 389px;
+    height: 292px;
+}
+
+#hotel-detail .content .box .right .main{
+    padding: 15px 24px;
+    text-align: left;
+    max-height: 900px;
+    overflow: hidden;
+}
+#hotel-detail .content .box .right .main span{
+    display: block;
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+}
+#hotel-detail .content .box .right .main span.last{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #338d87;
+}
+
+#hotel-detail .content .box .right .main p{
+    margin-top: 20px;
+    text-align: center;
+}
+#hotel-detail .content .box .right .main .call{
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    top: 5px;
+}
+#hotel-detail .content .box .right .main .public{
+    text-align: center;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+#hotel-detail .section1{
+    width: 100%;
+    background: #efefef;
+    padding: 60px 0;
+}
+
+#hotel-detail .section .container{
+    padding-left:0;
+    padding-right:0;
+    text-align: center;
+}
+#hotel-detail .section .container h2{
+    color: black;
+    font-weight:bold;
+    padding-bottom: 50px;
+
+}
+#hotel-detail .section1 .tabs{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#hotel-detail .section1 .tabs li{
+    float: left;
+    width: 32%;
+    border: 1px solid #b7b7b7;
+    margin-left:2%;
+    padding: 20px 0;
+    color: black;
+    font-size: 20px;
+    /*font-weight:bold;*/
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+#hotel-detail .section1 .tabs li.active{
+    background: #9d7cb3;
+    color: white;
+}
+#hotel-detail .section1 .tabs li.fir{
+    margin-left: 0;
+}
+#hotel-detail .section1 .items{
+    position: relative;
+}
+#hotel-detail .section1 .items>span{
+    position: absolute;
+    top: 40%;
+}
+#hotel-detail .section1 .items .prev{
+    left: -10%;
+}
+#hotel-detail .section1 .items .next{
+    right: -10%;
+}
+#hotel-detail .section1 .items li{
+    position: relative;
+    float: left;
+    width: 49%;
+}
+
+#hotel-detail .section1 .items li img{
+    width: 100%;
+}
+#hotel-detail .section1 .items li.fir{
+    margin-right: 2%;
+}
+
+#hotel-detail .section1 .items .title{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+    padding: 10px 0;
+    color: white;
+    z-index: 2;
+}
+
+#hotel-detail .section1 .items .title .cover{
+    background: black;
+    background-color: rgba(0,0,0,.5);
+    filter: alpha(opacity=50);
+}
+
+
+#slider1 .swiper-slide div>img{
+    width: 490px;
+    height: 300px;
+}
+.section1 .container{
+    position: relative;
+}
+.section1 .container>span{
+    position: absolute;
+    top: 60%;
+}
+
+.section1 .container .prev{
+    left: -5%;
+}
+.section1 .container .next{
+    right: -5%;
+}
+#slider1{
+    text-align: left;
+    height: 300px;
+}
+
+#slider1 .title{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+    padding: 10px 0;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+#slider1 .cover{
+    background: black;
+    background-color: rgba(0,0,0,.5);
+    filter: alpha(opacity=50);
+}
+#slider1 .swiper-slide>div{
+    position: relative;
+    width: 490px;
+    height: 300px;
+}

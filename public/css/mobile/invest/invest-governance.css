@@ -1,0 +1,36 @@
+.main img{
+    width: 100%;
+}
+.main .tip{
+    position: absolute;
+    left: 0;
+    top: 38%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+}
+.content-img1 img,.content-img2 img,.content-img3 img,.content-img4 img{
+    width: 100%;
+}
+.content-img1 .tip,.content-img2 .tip,.content-img3 .tip,.content-img4 .tip{
+    position: absolute;
+    left: 0;
+    top: 38%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6em;
+}
+.btn-posit{
+    margin-top: -80px;
+    position: absolute;
+    width:30%;
+    left:35%;
+}
+.p-posit{
+    margin-top: -123px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+}

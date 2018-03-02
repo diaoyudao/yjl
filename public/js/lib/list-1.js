@@ -1,0 +1,1 @@
+var PAGER={create:function(total,param){param = param||""; var page=laypage({cont:"pager",pages:total,curr:function(){var page=location.search.match(/pg=(\d+)/);return page?page[1]:1}(),jump:function(e,first){if(!first){location.href="?pg="+e.curr+param}}});return page}};

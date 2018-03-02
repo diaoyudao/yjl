@@ -1,0 +1,87 @@
+.news-list-oper{
+	width:100%;
+	height:2rem;
+	overflow:hidden;
+}
+.news-list-oper >.bd{
+	height:2rem;
+	width:20%;
+	border-right:1px solid #333;
+	box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box;
+}
+.news-list {
+	width:100%;
+	height:7rem;
+	margin:0;
+	overflow: hidden;
+	background-color: #fff;
+}
+.news-list:after{
+	clear:both;
+}
+.news-list .year{
+	height:7rem;
+	line-height: 7rem;
+	margin-top:0;padding-top:0;
+	text-align: center;
+	font-weight:600;
+	color:#007069;
+	float:left;width:20%;
+	border-right:1px solid #333;
+	box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box;
+}
+
+.news-list .begin{
+	position:relative;
+	top:2.5rem;
+	line-height: 2rem;
+}
+.news-list .end{
+	position:relative;
+	top:-3.5rem;
+	padding-top: 3.5rem;
+
+}
+.news-list .tags{
+	position:relative;
+	height:7rem;
+	z-index:20;
+	margin-top:2.5rem;
+	left:-1rem;
+	display: block;
+	background:url(/public_en/img/home/enter/history/history_circle.jpg) no-repeat ;
+	background-size:2rem 2rem;
+	overflow:hidden;
+	float:left;width:8%;
+	
+}
+
+.news-list .right-txt{	
+	height:7rem;
+	margin-bottom:2rem;
+	margin-right:0;
+	padding:0;
+	display:block;
+	overflow: hidden;
+	float:right;width:72%;	
+	}
+.right-txt .news-txt{
+	padding-top:1.5rem;
+	height:5.5rem;
+	margin:0;
+	float:left;width:87%;
+	overflow: hidden;
+	text-align: left;
+}
+.right-txt .news-more{
+	height:7rem;width:10%;
+	float:right;margin-right:0;
+	overflow: hidden;
+	background: url(/public_en/img/mobile/enter/green-next.png) no-repeat;
+	background-position:center center;
+	background-size:8px 12px;
+}

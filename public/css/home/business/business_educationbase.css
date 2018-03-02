@@ -1,0 +1,138 @@
+
+#education .sliders{
+    position: relative;
+}
+
+#education .slider .pic-box{
+    position: relative;
+    height: 490px;
+    overflow: hidden;
+}
+/*#education .slider .word{*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+    /*top: 165px;*/
+/*}*/
+/*#education .slider .word .title{*/
+    /*font-size: 70px;*/
+    /*color: white;*/
+/*}*/
+/*#education .slider .word .en{*/
+    /*font-size: 63px;*/
+    /*color: white;*/
+    /*letter-spacing: 5px;*/
+/*}*/
+
+
+#education .content{
+    position: relative;
+    padding: 20px 0 100px;
+    color: black;
+    width: 60%;
+    text-align: center;
+}
+
+#education .content>p{
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+#education .content a{
+    color: #828282;
+}
+#education .content .list1>li{
+    text-align: left;
+    color: #828282;
+}
+#education .content .list1>li .name{
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    font-weight:bold;
+    color: #0b766f;
+    border-bottom: 2px solid #0b766f;
+    margin-bottom: 45px;
+}
+#education .content .list1>li>img{
+    width: 100%;
+    max-width: 320px;
+}
+
+#education .content .list1>li .title{
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom:12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+#education .content .list1 .word{
+    max-width: 300px;
+    max-height: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 25px 17px;
+}
+
+#education .content .list1 .word span.green{
+    color:#007169 ;
+}
+
+#education .content>h2{
+    margin-bottom: 70px;
+}
+#education .content .box{
+    max-height: 500px;
+    overflow: hidden;
+    margin-bottom: 65px;
+}
+#education .content .box p{
+    font-size: 15px;
+    text-align: left;
+    color: #828282;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#education .main{
+    background: #efefef;
+    padding-top: 60px;
+}
+#education .main h2{
+    margin-bottom: 50px;
+}
+
+#education .main .container{
+    width: 60%;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+#education .main .box li{
+    float: left;
+    width: 320px;
+    margin-right: 10px;
+}
+#education .main .box li a{
+    display: inline-block;
+}
+#education .main .box li img{
+    width: 320px;
+    height: 240px;
+}
+
+#education .main .box .name{
+    display: inline-block;
+    font-size: 18px;
+    color: #404041;
+    font-weight:bold;
+    max-height: 96px;
+    padding: 23px 0;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

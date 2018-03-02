@@ -1,0 +1,93 @@
+.box{
+    width: 100%;
+    background-color: #efefef;
+}
+.content {
+
+    color:#000;
+    /*width: 60%;*/
+    text-align: center;
+    margin: auto;
+    padding: 50px 0;
+}
+.content p{
+    text-align: left;
+    margin-bottom: 34px;
+}
+.content a{
+    color: #828282;
+}
+.content h2{
+    color:#007069;
+    font-size:24px;
+    font-weight: bold;
+    margin-top:60px;
+    margin-bottom: 32px;
+}
+.content h4{
+    width:65%;
+    margin:0 auto;
+    font-size:15px;
+    color:#999999;
+    line-height:30px;    
+}
+
+
+.content form{
+    margin-top: 35px;
+    font-size:12px;
+}
+
+.content form .text{
+    height:40px;
+    line-height:40px;
+    width:65%;
+    padding-left:10px;
+    margin-bottom:10px;
+    border:1px solid #e4e4e4;
+    background-color:#f3f3f3;
+}
+
+.content form textarea{
+    height:280px;
+    width:65%;    
+    padding:5px 10px;
+    border:1px solid #e4e4e4;
+    background-color:#f3f3f3;
+}
+
+.content form .init-color{
+    color:#afafaf;
+} 
+.content form .submit{
+    margin:64px auto;
+}
+
+.content .left{
+    float: left;
+    text-align: left;
+}
+.content .left .title1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.content .left ul{
+    margin: 25px 45px 45px 0;
+}
+.content .left li span{
+    font-size: 15px;
+    color: #999999;
+}
+.content .left li span.no{
+    padding-left: 68px;
+}
+.content .right{
+    float: right;
+}
+.content .right img{
+    display: block;
+    margin-bottom: 10px;
+}
+.content .right .first{
+    margin-bottom: 20px;
+}

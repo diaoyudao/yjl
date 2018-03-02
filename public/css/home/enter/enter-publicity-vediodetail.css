@@ -1,0 +1,72 @@
+.container{
+    padding: 0;
+}
+.content{
+    color: black;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.content>p{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.content a{
+    color: #404041;
+}
+.nav-p a{
+    color: #828282;
+}
+.content .title{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.content .begin-time,.content .time{
+    margin-left: 30px;
+}
+
+.content .tips{
+    font-size: 14px;
+    color: #b4b4b4;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.sections{
+    background: #efefef;
+    padding-bottom: 75px;
+}
+.sections .content{
+    padding: 0;
+}
+.sections .vedio-list li{
+    float: left;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 13px;
+    color: #838383;
+    margin-top: 40px;
+}
+.sections .vedio-list li.fir{
+    margin-left: 0;
+}
+
+.sections .vedio-list li .title{
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+

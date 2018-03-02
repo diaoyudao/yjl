@@ -1,0 +1,264 @@
+.land:after, .land-active:after{
+    clear:both;
+}
+.land {
+    padding:0rem;
+    background-color: #fff;
+}
+
+.land img{
+    width:4rem;height:4rem;display:block;margin:0 auto;
+}
+.land-active img{
+    width:2rem;height:2rem;display:block;margin:0 auto;
+}
+
+.land-active{
+    padding:1rem;
+    background-color: #01756e;
+    color:#fff;
+}
+.land-active span{
+    margin-left:1rem;
+    line-height: 2rem;
+    font-size:1.4rem;
+    font-weight:700;
+    display:inline-block;
+    float:left;
+}
+
+.banner-img{
+    width: 100%;
+    height:380px;
+}
+.banner-img2{
+    width: 100%;
+    height:188px;
+}
+
+.slider .hd li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 6px;
+    cursor: pointer;
+    background-color: #fff
+}
+
+.slider .hd li.active {
+    background-color: #fff
+}
+
+.search {
+    background: #efefef;
+    padding: 3rem 0;
+}
+
+.search .input {
+    margin-top: 2rem;
+    line-height: 3rem;
+}
+
+.search .input input {
+    height: 3rem;
+    width: 85%;
+    vertical-align: top;
+    border: none;
+    outline: none;
+}
+
+.search .input .butn {
+    display: inline-block;
+    width: 15%;
+    height: 3rem;
+    background: #9d7cb3;
+    line-height: 3rem;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search .input p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+    color: #737373;
+}
+
+.rollpic .prev, .rollpic .next {
+    display: block;
+    height: 31px;
+    cursor: pointer;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.rollpic .prev, .rollpic .prev:hover {
+    float: left;
+    width: 14.6%;
+    margin-right: 0px;
+    background: url(/public/img/mobile/join/index/prev.png) no-repeat;
+    background-position: center center;
+    background-size: 13px 25px
+}
+
+.rollpic .next, .rollpic .next:hover {
+    float: right;
+    width: 14.6%;
+    margin-left: 0px;
+    background: url(/public/img/mobile/join/index/next.png) no-repeat;
+    background-position: center center;
+    background-size: 13px 25px
+}
+
+.rollpicshow {
+    float: left;
+    border: none;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.rollpicshow li {
+    padding: 0 0 2rem;
+    float: left;
+    width: 70%;
+    text-align: center;
+    position: relative;
+    background: #fff;
+}
+
+.rollpicshow li img {
+    width: 100%;
+    height: 230px;
+    display: block;
+    margin: 0 auto;
+}
+
+.rollpicshow li .txt {
+    width: 100%;
+}
+
+.word {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    color: white;
+    padding: 5px 0;
+}
+
+.word .cover {
+    width: 100%;
+    background: #067971;
+    background: rgba(6, 121, 113, .6);
+    filter: alpha(opacity=60);
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.word .name {
+    font-size: 1.6rem;
+}
+
+ .word .statu {
+    font-size: 1.4rem;
+}
+
+
+.box {
+    padding: 0 0.5rem;
+    color: #5f5f5f;
+
+    font-weight: bold;
+}
+.btn-more1 {
+    width: 30%;
+    margin: 0 auto;
+    padding: 0.2rem 1rem;
+    background-color: #9d7cb3;
+    text-align: center;
+    border-bottom-right-radius: 0.4em;
+    line-height: 1.4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.content{
+    font-size: 1.4rem;
+}
+.xs-img{
+    height: 0.8rem;width: 0.8rem;
+    padding-top: 0.2rem;
+    /*vertical-align: top;*/
+}
+.color-999{
+    color: #999;
+}
+
+.option{
+    position: relative;
+    width: 32%;
+    height: 30px;
+    background: url(/public/img/mobile/business/easte/select-btn.jpg)no-repeat 100%;
+    background-size: cover;
+    display: inline-block;
+    z-index: 10;
+    /*margin-left: 100px;*/
+    margin-top: 20px;
+}
+
+.option .dateTip{
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    font-size: 1.5rem;
+}
+.city,.type,.sales{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.option .text{
+    position: absolute;
+    left: 0;
+    top:0;
+    color: white;
+    /*font-size: 1.3em;*/
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+}
+
+.option select{
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    /*font-size: 1.3em;*/
+    font-weight: bold;
+    padding-left: 76px;
+    text-align: center;
+    opacity: 0;
+}
+.option select option{
+    text-align: center;
+    /*color: white;*/
+    line-height: 30px;
+    font-size: 1.5rem;
+}

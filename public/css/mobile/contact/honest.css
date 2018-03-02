@@ -1,0 +1,90 @@
+        body{font-size:1.4rem;}
+        .image-s{width:2rem;height: 2rem;}
+        .institution-btn{
+            width:30%;
+            margin-left:0 ;margin-right:0;
+            padding:1.2rem 0;
+            background-color:#0bb296;
+            text-align:center;
+            line-height:1.4rem;
+            font-size:1.4rem;
+            font-weight: 600;
+            color:#fff;
+        }
+
+#cover{
+	background-color: #555;
+}
+#cover .box{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left:5%;
+    top:5%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #01756e;
+    color: white;
+    text-align: center;
+    border:none;
+}
+#cover .box .title{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#cover .box p{
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+#cover .box h2{
+    margin-bottom: 60px;
+    font-weight:400;
+}
+#cover .box .main{
+	position: absolute;
+    height: 70%;
+    width:95%;
+    top:60px;
+    left:4%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 0;
+}
+.btn-width{
+	position: absolute;
+	width:200px;
+	left:50%;
+	bottom:4%;
+	margin-left:-100px;
+	margin-top:-15px;
+}
+#cover .btn-close{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 26px;
+    height: 26px;
+    background: url("/public/img/home/common/close.png");
+    background-position: center center;
+    background-size: 25px 25px;
+}
+
+
+#cover .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+    background-color: #19a79e;
+}
+
+#cover .mCSB_scrollTools .mCSB_draggerRail {
+    width: 8px;
+    border-radius: 0;
+    background-color: rgba(0,0,0,.3);
+}
+#cover .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    position: relative;
+    width: 8px;
+    border-radius: 0;
+}

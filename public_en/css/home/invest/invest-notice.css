@@ -1,0 +1,141 @@
+body{
+    background-color: #efefef;
+}
+.section1{
+    background-color: #efefef;
+}
+.section2{
+    background-color: #ffffff;
+}
+.content{
+    /*padding: 20px 0;*/
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+.content>p{
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+.content a{
+    color: #828282;
+}
+.content h2{
+    font-weight: bold;
+    /*margin-bottom: 50px;*/
+}
+
+.content .select{
+    width: 320px;
+    height: 47px;
+    background: url("/public_en/img/home/enter/honor/honor_btn1.jpg");
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+
+.content .select .nav{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 47px;
+}
+
+.content .select .items{
+    position: absolute;
+    display: none;
+    width: 100%;
+    background: white;
+    left:0;
+}
+
+.content .select .items li{
+    text-align: center;
+    line-height: 40px;
+}
+
+.content .select .items li.active{
+    background:#9d7cb3 ;
+    color: white;
+}
+.content .title{
+    border-bottom:1px solid #cfcfcf;
+    margin-top: 25px;
+}
+
+.content .title span{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 23px;
+    font-weight: bold;
+    border-bottom: 3px solid #007069;
+}
+.content .word{
+    padding: 0 25px;
+}
+.content .word li a{
+    color: black;
+}
+.content .word li{
+    border-bottom: 1px solid #cfcfcf;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    padding: 16px 0;
+}
+.content .word li .l-title{
+    width: 640px;
+    float: left;
+    word-wrap: break-word;
+}
+.content .word li .icon{
+    float: left;
+    width: 9px;
+    height: 9px;
+    background: url("/public_en/img/home/enter/honor/honor_point.png");
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.content .word li .time{
+    padding: 5px 30px;
+    font-size: 15px;
+    line-height: normal;
+    margin-top: -15px;
+    color: #7b7b7b;
+    /*float: right;*/
+    position: absolute;
+    top:50%;
+    right: 100px;
+}
+.content .word li .news{
+    padding: 5px 12px;
+    font-size: 15px;
+    line-height: normal;
+    margin-top: -15px;
+    color: white;
+    background: #0bb296;
+    /*float: right;*/
+    position: absolute;
+    top:50%;
+    right: 20px;
+
+}
+
+.content .word li.last{
+    border: none;
+}
+.sections{
+    background-color: #efefef
+}
+

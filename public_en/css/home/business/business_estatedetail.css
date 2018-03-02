@@ -1,0 +1,297 @@
+.pic-box{
+    position: relative;
+    overflow: hidden;
+    height: 490px;
+}
+
+#estate .content{
+    padding: 20px 0;
+    color: black;
+    text-align: center;
+}
+#estate>img{
+    width: 100%;
+}
+
+#estate .content>p{
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+#estate .content a{
+    color: #828282;
+}
+#estate .content h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#estate .content .box .left{
+    padding-left: 0;
+    width: 560px;
+}
+
+#estate .content .box .left p{
+    margin-bottom: 35px;
+    font-size: 15px;
+    color: #828282;
+    text-align: left;
+    line-height:30px;
+}
+#estate .content .box .left p strong{
+    color: #404041;
+    font-size: 20px;
+}
+
+#estate .content .box .left p img{
+    width:100%;
+}
+
+
+#estate .content .box .contact{
+    margin-top:40px;
+    width: 100%;
+    border: 1px solid #b7b7b7;
+    padding: 15px 20px;
+    text-align: left;
+    overflow: hidden;
+}
+#estate .content .box .contact>img{
+    width: 31%;
+}
+#estate .content .box .contact .word{
+    width: 64%;
+}
+#estate .content .box .contact .word p{
+    line-height:100%;
+    font-size: 15px;
+    color: #828282;
+}
+
+
+
+
+
+#estate .section1{
+    width: 100%;
+    height: 540px;
+    background: #efefef;
+    padding: 60px 0;
+}
+
+#estate .section .container{
+    padding-left:0;
+    padding-right:0;
+    text-align: center;
+    position: relative;
+}
+#estate .section .container h2{
+    color: black;
+    font-weight:bold;
+    padding-bottom: 50px;
+
+}
+#estate .section1 .tabs{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#estate .section1 .tabs li{
+    float: left;
+    width: 32%;
+    border: 1px solid #b7b7b7;
+    padding: 0;
+    margin-left:2%;
+    padding: 20px 0;
+    color: black;
+    font-size: 20px;
+    /*font-weight:bold;*/
+    text-align: center;
+    cursor: pointer;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#estate .section1 .tabs li.active{
+    background: #9d7cb3;
+    color: white;
+}
+#estate .section1 .tabs li.fir{
+    margin-left: 0;
+}
+#estate .section1 .items{
+    position: relative;
+}
+#estate .section1 .container .slider-box>span{
+    position: absolute;
+    top: 54%;
+}
+#estate .section1  .prev{
+    left: -35px;
+}
+#estate .section1 .next{
+    right: -35px;
+}
+#estate .section1 .items li{
+    float: left;
+    width: 49%;
+}
+
+#estate .section1 .items li img{
+    width: 100%;
+}
+#estate .section1 .items li.fir{
+    margin-right: 2%;
+}
+
+
+
+#estate .section2{
+    padding: 100px 0;
+}
+#estate .section2 .main{
+    overflow: hidden;
+    border: 2px solid #eae4dd;
+}
+#estate .section2 .main .nav{
+    padding: 0 25px;
+    border-bottom: 2px solid #f9f9f9;
+}
+#estate .section2 .main .nav li{
+    float: left;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#estate .section2 .main .nav li.active{
+    color: #e64651;
+    border-bottom: 2px solid #e64651;
+}
+#estate .section2 .map img{
+    width: 100%;
+}
+
+#estate .section2 .tips{
+    color: #aeaeae;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 0;
+    border-top: 2px solid #eae4dd;
+}
+/*webkit滚动条*/
+#results::-webkit-scrollbar {
+    width:5px;
+    height:5px;
+}
+#results::-webkit-scrollbar-button    {
+    display: none;
+}
+#results::-webkit-scrollbar-track     {
+    background:#FF66D5;
+}
+#results::-webkit-scrollbar-track-piece {
+    background:white;
+}
+#results::-webkit-scrollbar-thumb{
+    background:#969696;
+    border-radius:4px;
+}
+#results::-webkit-scrollbar-corner {
+    background:#82AFFF;
+}
+#results::-webkit-scrollbar-resizer  {
+    background:#FF0BEE;
+}
+
+
+#results>div{
+    border:none!important;
+}
+
+#estate .section3{
+    position: relative;
+    background: #efefef;
+    padding: 30px 0;
+}
+
+
+#estate .section3 .tabs{
+    position: relative;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#estate .section3 .tabs li{
+    float: left;
+    width: 32%;
+    padding: 0;
+    margin-left:2%;
+    padding: 20px 0;
+    color: black;
+    font-size: 20px;
+    /*font-weight:bold;*/
+    text-align: center;
+}
+#estate .section3 .tabs li a{
+    width: 100%;
+}
+#estate .section3 .tabs li a>img{
+    width: 100%;
+}
+
+#estate .section3 .tabs li.fir{
+    margin-left: 0;
+}
+
+#estate .section3 .swiper-slide p{
+    font-size: 18px;
+    color: black;
+    font-weight:bold;
+    margin-top: 25px;
+    padding-bottom: 90px;
+}
+
+#estate .section3 .container>span{
+    position: absolute;
+    top: 58%;
+}
+#estate .section3  .prev{
+    left: -35px;
+}
+#estate .section3  .next {
+    right: -35px;
+}
+
+#slider1{
+    height: 300px;
+}
+
+#slider1 .swiper-slide div>img{
+    width: 490px;
+    height: 300px;
+}
+
+#slider2{
+    height: 250px;
+}
+#slider2 a>img{
+    width: 100%;
+    max-width: 320px;
+}
+
+/*#estate .section3 .container>span{*/
+    /*position: absolute;*/
+    /*top: 45%;*/
+/*}*/
+
+#estate .section3 .container .prev{
+
+}
+.section1 .container>span{
+    position: absolute;
+    top: 58%;
+}

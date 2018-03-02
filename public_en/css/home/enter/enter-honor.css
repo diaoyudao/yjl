@@ -1,0 +1,227 @@
+
+body{
+    background: #efefef;
+}
+.content{
+    padding: 20px 0 60px;
+    color: #404041;
+    text-align: center;
+}
+
+.content>p{
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+.content a{
+    color: #828282;
+}
+.content h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+.section-s{
+    background: #efefef;
+}
+.section-d{
+    background: white;
+}
+
+.content .select{
+    width: 320px;
+    height: 47px;
+    background: url("/public_en/img/home/enter/honor/honor_btn1.jpg");
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+
+.content .select .nav{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 47px;
+}
+
+.content .select .items{
+    position: absolute;
+    display: none;
+    width: 100%;
+    background: white;
+    left:0;
+}
+
+.content .select .items li{
+    text-align: center;
+    line-height: 40px;
+}
+
+.content .select .items li.active{
+    background:#9d7cb3 ;
+    color: white;
+}
+.content .title{
+    border-bottom:1px solid #cfcfcf;
+    margin-top: 25px;
+}
+
+.content .title span{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 23px;
+    font-weight: bold;
+    border-bottom: 3px solid #007069;
+}
+.content .word{
+    padding: 0 25px;
+}
+.content .word li a{
+    color: black;
+}
+.content .word li{
+    border-bottom: 1px solid #cfcfcf;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.6em;
+    text-align: left;
+    padding: 15px 0;
+    overflow: hidden;
+}
+.content .word li .icon{
+    position: relative;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: url("/public_en/img/home/enter/honor/honor_point.png");
+    margin-right: 10px;
+    top: 10px;
+}
+.content .word li .text{
+    width: 840px;
+    float: left;
+
+}
+
+.content .word li .news{
+    padding: 5px 12px;
+    font-size: 15px;
+    line-height: normal;
+    background: #0bb296;
+    float: right;
+}
+.content .word li .news a{
+    color: white;
+}
+
+.content .word li.last{
+    border: none;
+}
+
+.btn-list{
+    position: relative;
+    display: inline-block;
+    margin-top: 60px;
+}
+.btn-list li{
+    float: left;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    color: black;
+}
+ .btn-list li.active{
+    background: #9d7cb3;
+    color: white;
+}
+
+.btn-list .box{
+    max-width: 165px;
+    overflow: hidden;
+}
+
+.btn-list span{
+    position: absolute;
+    top: 24%;
+    height: 70%;
+    cursor: pointer;
+}
+.btn-list span img{
+    height: 70%;
+}
+.btn-list .prev{
+    left: -30%;
+}
+.btn-list .next{
+    right: -30%;
+}
+.section{
+    text-align: center;
+}
+.sections{
+    background: #efefef;
+    text-align: center;
+}
+.sections .pages{
+    text-align: center;
+}
+
+.pages{
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    text-align: center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.pages ul{
+    position: relative;
+    display: inline-block;
+}
+.pages li {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    color: black;
+    cursor: pointer;
+}
+.pages li.active{
+    background: #9d7cb3;
+    color: white;
+}
+.pages .box-list>span{
+    position: absolute;
+    top: 24%;
+    height: 70%;
+    cursor: pointer;
+}
+.pages .box-list{
+    display: inline-block;
+    position: relative;
+}
+.pages .box-list>span img{
+    height: 70%;
+}
+.pages .prev{
+    left: -40px;
+}
+.pages .next{
+    right: -30px;
+}
+
+
+
+
+
+
+
+

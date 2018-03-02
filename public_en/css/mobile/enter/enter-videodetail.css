@@ -1,0 +1,44 @@
+.videoDetail{
+    padding: 20px 15px;
+}
+h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #404040;
+}
+h3{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #404040;
+}
+.fff{
+    color: #fff;
+}
+.bg-c{
+    background: #efefef;
+}
+.video-img-other{
+	width: 48%;	
+	overflow: hidden;
+}
+.video-img-other .left{
+	float:left;
+	margin-left:0;
+}
+.video-img-other .right{
+	float:right;
+	margin-right:0;
+}
+.video-img-other img{
+	width: 100%;height: 100%;
+}
+.video-img-other .txt{
+	position: relative;
+	bottom:30px;
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	padding-left:10px;
+	color:#fff;
+	background-color: rgba(0,0,0,0.8)
+}

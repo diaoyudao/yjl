@@ -1,0 +1,125 @@
+.pic-box{
+    position: relative;
+    overflow: hidden;
+    height: 487px;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container{
+    padding: 0;
+}
+ .intro-title{
+    display: inline-block;
+    padding: 0 20px;
+    background: #9d7cb3;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+ .word-title{
+    font-size: 18px;
+    color: #505050;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content{
+    padding: 50px 60px 80px;
+    color: black;
+    text-align: center;
+}
+.word p{
+    font-size: 15px;
+    color: #848484;
+    text-align: left;
+    line-height: 25px;
+}
+
+.content>p{
+    text-align: left;
+    margin-bottom: 90px;
+}
+
+.content a{
+    color: #828282;
+}
+.content h2{
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+
+.content .word-box p.last{
+    margin-bottom: 40px;
+}
+
+.top-box{
+    position: relative;
+    text-align: center;
+}
+/*.top-box .word{*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*top: 37%;*/
+/*}*/
+/*.top-box .word p{*/
+    /*font-size: 58px;*/
+    /*color: white;*/
+    /*text-align: center;*/
+    /*line-height: 70px;*/
+/*}*/
+/*.top-box .word p.en{*/
+    /*font-size: 30px;*/
+/*}*/
+
+.content .word p{
+    font-size: 15px;
+    color: #848484;
+    text-align: left;
+    line-height: 30px;
+}
+
+.section2{
+    background: #efefef;
+}
+
+.section2 .container{
+    padding: 90px 0;
+}
+.section2 .word{
+    display: inline-block;
+    width: 600px;
+    margin-left: 40px;
+    vertical-align: top;
+}
+
+.section3 .container{
+    padding: 90px 0 150px;
+    text-align: center;
+}
+.section3 .req{
+    padding: 30px 0;
+    background: #efefef;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.section3 .point .word-title{
+    text-align: left;
+}
+.section3 .word{
+    display: inline-block;
+    width: 400px;
+    margin-left: 60px;
+}
+
+.section4.section3 .container{
+    padding-top: 70px;
+}
+.section4.section3 .word.point{
+    margin: 0;
+    width: 495px;
+}

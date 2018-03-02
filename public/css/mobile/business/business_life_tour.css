@@ -1,0 +1,19 @@
+.main img{
+    width: 100%;
+}
+h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #404040;
+}
+h3{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #404040;
+}
+.fff{
+    color: #fff;
+}
+.bg-c{
+    background: #efefef;
+}

@@ -1,0 +1,1 @@
+$(".list_table tr:even").addClass("even");$(".list_table tr").hover(function(){$(this).addClass("sel")},function(){$(this).removeClass("sel")});$(function(){$("#headth th").each(function(i){var width=$("#headth th:eq("+i+")").width();$("#conth tr:eq(0) td:eq("+i+")").width(width-2)})});

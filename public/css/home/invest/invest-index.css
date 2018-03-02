@@ -1,0 +1,357 @@
+.section1 {
+    position: relative;
+}
+
+.section1 .slider {
+    position: relative;
+    width: 100%;
+}
+
+.section1 .slider .pic-box {
+    position: relative;
+    height: 826px;
+    overflow: hidden;
+}
+
+/*.section1 .slider .box{*/
+/*position: absolute;*/
+/*width: 100%;*/
+/*top: 24%;*/
+/*text-align: center;*/
+/*}*/
+
+/*.section1 .slider .box .title{*/
+/*font-size: 60px ;*/
+/*color: white;*/
+/*}*/
+
+/*.section1 .slider .box .word{*/
+/*display: inline-block;*/
+/*width: 286px;*/
+/*height: 30px;*/
+/*background: #007069;*/
+/*color: white;*/
+/*font-size: 25px;*/
+/*letter-spacing: 6px;*/
+/*line-height: 30px;*/
+/*margin-top: 20px;*/
+/*}*/
+.cover1 {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    bottom: 0;
+}
+
+.cover1 .shares {
+    overflow: hidden;
+    height: 307px;
+    background: url("/public/img/home/invest/main_sec3_p2.jpg") no-repeat;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/img/home/invest/main_sec3_p2.jpg', sizingMethod='scale');
+    background-size: 100% 100%;
+
+}
+
+.cover1 .shares {
+    overflow: hidden;
+    height: 300px;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/img/home/invest/main_sec3_p2.jpg', sizingMethod='scale');
+    background-size: 100% 100%;
+    background: #007069;
+    background-color: rgba(0, 112, 102, .8);
+    filter: alpha(opacity=80);
+}
+
+.cover1 .shares .container {
+    max-width: 1200px;
+}
+
+.cover1 .shares .content {
+    margin-top: 60px;
+    position: relative;
+    padding: 35px 40px 0;
+    z-index: 2;
+}
+
+.cover1 .shares .content > .title {
+    color: white;
+    font-size: 20px;
+}
+
+.cover1 .shares .content .now {
+    font-size: 50px;
+    color: white;
+    float: left;
+}
+
+.cover1 .shares .content .now .icon {
+    position: absolute;
+    top: 20px;
+    margin-left: 2px;
+}
+
+.cover1 .shares .content .now .index {
+    font-size: 16px;
+}
+
+.cover1 .shares .content .item {
+    float: left;
+    font-size: 31px;
+    margin-left: 5%;
+    color: #a5c2bf;
+}
+
+.cover1 .shares .content .item .title {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.cover1 .shares .content .item .index {
+    font-size: 12px;
+}
+
+.cover1 .shares .content .time {
+    display: inline-block;
+    color: #a5c2bf;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.cover1 .shares .content .text {
+    display: inline-block;
+    color: #a5c2bf;
+    float: right;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.section3 .report {
+    margin-top: 40px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+
+.section3 .report .box {
+    overflow: hidden;
+    width: 100%;
+}
+
+.section3 .report .left {
+    float: left;
+    width: 480px;
+    border-right: 1px solid #c4c4c4;
+    margin-bottom: 55px;
+}
+
+.section3 .report .right {
+    position: relative;
+    float: right;
+    width: 500px;
+    padding-left: 30px;
+    padding-bottom: 9px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    /*height: 313px;*/
+}
+
+.section3 .report .left .title {
+    margin-bottom: 15px;
+}
+
+.section3 .report .left .title span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007069;
+    display: inline-block;
+    padding: 7px 10px;
+    border-bottom: 2px solid #007069;
+}
+
+.section3 .report .right .item1 {
+    border-bottom: 1px solid #c4c4c4;
+    border-top: 1px solid #c4c4c4;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+.section3 .report .right .item2 {
+    border-bottom: 1px solid #c4c4c4;
+    padding: 30px 0;
+    /*margin-top: 23px;*/
+}
+
+.section3 .report .right .icon {
+    /*display: inline-block;*/
+    float: left;
+    width: 9px;
+    height: 9px;
+    background: url(/public/img/home/invest/point.png);
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+.section3 .report .right .text {
+    float: left;
+    width: 450px;
+    color: #111;
+}
+
+.section3 .report .right .date {
+    display: block;
+    font-size: 13px;
+    padding: 5px 0 5px 20px;
+
+}
+
+.section3 .report .right .icon1 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(/public/img/home/invest/icon1.png);
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+.section3 .report .right .downLoad {
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.section3 .report .right .downLoad a {
+    color: #9d7cb3;
+}
+
+.section3 .report .more {
+    height: 30px;
+    position: absolute;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    right: 0;
+}
+
+.section3 .report .more a {
+    color: #9d7cb3;
+}
+
+.section3 .report .more .icon {
+    position: relative;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url("/public/img/home/index/main_icon.png") no-repeat;
+}
+
+.section3 .contact {
+    width: 100%;
+}
+
+.section4 .content {
+    margin-top: 40px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #efefef;
+    width: 100%;
+    padding: 30px 0 90px;
+}
+
+.section4 .content span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.section4 .content h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section4 .list li {
+    width: 235px;
+    float: left;
+    margin-left: 20px;
+}
+
+.section5 .slider {
+    width: 100%;
+    position: relative;
+}
+
+.section5 .slider .pic-box {
+    position: relative;
+    overflow: hidden;
+    height: 419px;
+}
+
+.section5 .slider .bg {
+    width: 100%;
+}
+
+.section5 .slider a {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    margin-left: -68px;
+}
+
+/*.section5 .slider .box{*/
+/*position: absolute;*/
+/*width: 100%;*/
+/*bottom: 26%;*/
+/*text-align: center;*/
+/*}*/
+
+/*.section5 .slider .box .title{*/
+/*font-size: 70px ;*/
+/*color: white;*/
+/*}*/
+
+/*.section5 .slider .box .word{*/
+/*display: inline-block;*/
+/*width: 250px;*/
+/*height: 30px;*/
+/*background: #007069;*/
+/*color: white;*/
+/*font-size: 25px;*/
+/*letter-spacing: 8px;*/
+/*line-height: 30px;*/
+/*margin: 20px 0 30px;*/
+/*}*/
+/*.section5 .slider .s5_content{*/
+/*text-align: center;*/
+/*position: absolute;*/
+/*bottom: 10%;*/
+/*width: 100%;*/
+/*}*/
+.section5 .slider .s5_content span {
+    width: 138px;
+    height: 33px;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    line-height: 33px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid #fff;
+}
+
+.btn-more1 {
+    display: inline-block;
+    width: 192px;
+    height: 47px;
+    font-size: 18px;
+    color: white !important;
+    line-height: 47px;
+    background: url(/public/img/home/join/bg_frame.png) no-repeat;
+    text-align: center;
+    margin-right: 17px;
+}
+
+

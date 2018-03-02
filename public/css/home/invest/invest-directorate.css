@@ -1,0 +1,33 @@
+.content {
+    color:#000;
+    /*width: 60%;*/
+    text-align: center;
+    margin: auto;
+    padding: 50px 0;
+}
+.content a{
+    color: #828282;
+}
+.content h4{
+    width:65%;
+    margin:0 auto;
+    font-size:15px;
+    color:#999999;
+    line-height:30px;    
+}
+.content .right{
+    width: 480px;
+    margin-left: 40px;
+    text-align: left;
+}
+.content .right .title{
+    font-size: 24px;
+    color: #404040;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.content .right p{
+    font-size: 15px;
+    color: #838385;
+    margin-bottom: 7px;
+}

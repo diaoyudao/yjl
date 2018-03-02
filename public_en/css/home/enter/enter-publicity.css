@@ -1,0 +1,128 @@
+.banner>span {
+    position: absolute;
+    top: 50%;
+    z-index: 20;
+}
+.banner .prev {
+    left: 200px;
+}
+.banner .next {
+    right: 200px;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.pagination{
+    position: absolute;
+    z-index: 20;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#enPub .content{
+    padding: 20px 0;
+    color: black;
+    text-align: center;
+}
+
+#enPub .content>p{
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+#enPub .content a{
+    color: #404041;
+}
+#enPub .nav-p a{
+    color: #828282;
+}
+#enPub .content h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#enPub .content h2 a{
+    color: #404040;
+}
+
+
+/*视频图片*/
+#enPub .content li{
+    text-align: left;
+    color: #828282;
+}
+#enPub .content li a>img{
+    width: 320px;
+    height: 275px;
+}
+
+#enPub .content li .title{
+    margin-top: 25px;
+    margin-bottom:12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    width: 320px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+#enPub .content li .title a{
+    color: #404041;
+}
+
+#enPub .items{
+    text-align: center;
+    position: relative;
+    padding: 140px 0;
+    background: #efefef;
+    overflow: hidden;
+}
+
+#enPub .items h2{
+    margin-bottom: 50px;
+}
+#enPub .items li{
+    float: left;
+    text-align: center;
+}
+#enPub .items .swiper-slide div>img{
+    width: 100%;
+    max-width: 244px;
+    max-height: 358px;
+    box-shadow: 0px 0px 20px #888888;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#888888')";
+}
+
+#enPub .items .swiper-slide div .title{
+    margin-top: 25px;
+    margin-bottom:25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+#enPub .items>span{
+    position: absolute;
+    top: 47%;
+}
+
+#enPub .items .prev{
+    left: 0px;
+}
+#enPub .items .next{
+    right: 0px;
+}
+
+#enPub .items .swiper-slide{
+}
+
+#slider2>span{
+    position: absolute;
+    top: 40%;
+}

@@ -1,0 +1,162 @@
+
+.container {
+    max-width: 1000px;
+}
+
+.content {
+    padding: 20px 0;
+    color: black;
+    text-align: center;
+}
+
+.content > p {
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+.content a {
+    color: #828282;
+    cursor: pointer;
+}
+
+.content h2 {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#hotel-list .section1 {
+    background: #efefef;
+}
+
+.search ul li.bold a {
+    font-weight: bold;
+    color: #007169;
+}
+
+#hotel-list .search {
+    background: #efefef;
+    padding: 0 0 65px 0;
+}
+
+#hotel-list .search .input {
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+#hotel-list .search .input input {
+    height: 40px;
+    width: 85%;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    color: #828282;
+}
+
+#hotel-list .search .input .btn {
+    display: inline-block;
+    width: 15%;
+    height: 40px;
+    background: #9d7cb3;
+    line-height: 40px;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+}
+
+#hotel-list .section1 .city {
+    margin-top: 50px;
+}
+
+#hotel-list .section1 .city li {
+    float: left;
+    font-size: 15px;
+    padding: 0 1%;
+}
+
+#hotel-list .section1 .city li.fir {
+    color: black;
+    padding: 0;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+#hotel-list .section2 .container {
+    position: relative;
+    max-width: 1000px;
+    padding: 30px 0 150px;
+    text-align: center;
+}
+
+#hotel-list .section2 .items li {
+    position: relative;
+    float: left;
+    width: 330px;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 7px;
+    text-align: center;
+    background: url("/public_en/img/home/common/lists_item_bg.png") no-repeat;
+    background-size: 100% 100%;
+    background: none \9;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public_en/img/home/common/lists_item_bg.png', sizingMethod='scale')
+
+}
+
+#hotel-list .section2 .items li.fir {
+    margin-left: 0;
+}
+
+#hotel-list .section2 .items li a>img {
+    width: 315px;
+    height: 235.5px;
+}
+
+#hotel-list .section2 .items li .box {
+    padding: 36px;
+    color: #5f5f5f;
+}
+
+#hotel-list .section2 .items li span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    max-height: 49px;
+    overflow: hidden;
+    filter: none;
+}
+
+#hotel-list .section2 .items li p {
+    margin-bottom: 38px;
+    margin-top: 10px;
+    height: 42px;
+    overflow: hidden;
+    filter: none;
+}
+
+#hotel-list .section2 .items > a {
+    display: inline-block;
+    position: relative;
+    z-index: 20;
+}
+
+
+
+.section2 .more {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #9d7cb3;
+}
+
+.section2 .more .icon {
+    position: relative;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-left: 5px;
+    background: url("/public_en/img/home/index/main_icon.png") no-repeat;
+}
+

@@ -1,0 +1,141 @@
+.pic-box{
+    position: relative;
+    overflow: hidden;
+    height: 487px;
+}
+
+.content{
+    padding: 50px 60px 80px;
+    color: black;
+    text-align: center;
+}
+
+.content>p{
+    text-align: left;
+    margin-bottom: 90px;
+}
+
+.content a{
+    color: #828282;
+}
+.content h2{
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+
+.content .word-box p{
+    font-size: 15px;
+    text-align: left;
+    color: #515151;
+    margin-top: 40px;
+}
+.content .word-box p.last{
+    margin-bottom: 40px;
+}
+
+.top-box{
+    position: relative;
+    text-align: center;
+}
+.top-box .word{
+    position: absolute;
+    text-align: center;
+    top: 19%;
+    left: 43%;
+    margin-left: 55px;
+
+}
+/*.top-box .word p{*/
+    /*font-size: 70px;*/
+    /*color: white;*/
+/*}*/
+/*.top-box .word p.en{*/
+    /*font-size: 63px;*/
+/*}*/
+.wh{
+    width:168px;
+    height: 145px;
+}
+.content .word p{
+    font-size: 15px;
+    color: #848484;
+}
+
+.section2{
+    background: #efefef;
+}
+
+.section2 .left{
+    width: 50%;
+}
+.section2 .right .title{
+    font-size: 30px;
+    color: #404040;
+    font-weight: bold;
+}
+.section2 .left>img{
+    width: 100%;
+}
+
+.section2 .right{
+    width: 45%;
+    color: #828282;
+    font-size: 15px;
+    text-align: left;
+}
+.section2 .right p{
+    margin-top: 20px;
+}
+.section3 .container{
+    padding: 0;
+    text-align: center;
+    margin-top: 80px;
+}
+.section3  .list{
+    overflow: hidden;
+    padding-bottom: 110px;
+}
+
+.section3  .list li{
+    float: left;
+    width: 33.3%;
+    margin-top: 80px;
+}
+.section3 .list li span{
+    font-size: 15px;
+    color: #282828;
+}
+.section3 .list li .title{
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.section4{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.section4 .container{
+    padding:0 70px;
+}
+.section4 .word{
+    width: 760px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.section4 .list li{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.section4 .list li .word{
+    display: inline-block;
+}
+.section4 .list li .word .title{
+    font-size: 18px ;
+    color: #02766e;
+}
+.section4 .list li .word p{
+    font-size: 15px;
+    color: #838385;
+    line-height: 25px;
+}

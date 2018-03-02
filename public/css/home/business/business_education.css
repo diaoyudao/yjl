@@ -1,0 +1,217 @@
+.swiper-slide img{
+    height: 490px;
+}
+#education .sliders{
+    position: relative;
+}
+
+#education .slider .pic-box{
+    position: relative;
+    height: 490px;
+    overflow: hidden;
+}
+#education .slider .word{
+    position: absolute;
+    text-align: right;
+    top: 10%;
+    left: 50%;
+}
+#education .slider .word .title{
+    font-size: 70px;
+    color: white;
+}
+#education .slider .word .en{
+    font-size: 63px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+#education .butn{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 50px;
+    z-index: 20;
+}
+#education .butn span img{
+    height: 100%;
+}
+#education .butn>span{
+    height: 100%;
+}
+#education .butn .btn2{
+    margin-left: 1%;
+}
+#education .butn>div {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+}
+
+#education .butn  .item{
+    display: inline-block;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+    background: #007069;
+    overflow: hidden;
+    width: 200px;
+    line-height: 80px;
+    white-space: nowrap;
+}
+#education .butn  .item span{
+    display: inline-block;
+}
+#education .butn  .item .tip{
+    margin-left: 15px;
+}
+
+#education .content{
+    position: relative;
+    padding: 20px 0 100px;
+    color: black;
+    width: 60%;
+    text-align: center;
+}
+
+#education .content>p{
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+#education .content a{
+    color: #828282;
+}
+#education .content .list1>li{
+    text-align: left;
+    color: #828282;
+}
+#education .content .list1>li .name{
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    font-weight:bold;
+    color: #0b766f;
+    border-bottom: 2px solid #0b766f;
+    margin-bottom: 45px;
+}
+#education .content .list1>li>img{
+    width: 100%;
+    max-width: 320px;
+}
+
+#education .content .list1>li .title{
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom:12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+#education .content .list1 .word{
+    max-width: 300px;
+    max-height: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 25px 17px;
+}
+
+#education .content .list1 .word span.green{
+    color:#007169 ;
+}
+
+#education .content>h2{
+    margin-bottom: 70px;
+}
+#education .content .box{
+    width: 560px;
+    text-align: left;
+    float: right;
+}
+#education .content .box .title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #404040;
+}
+#education .content .box p{
+    font-size: 15px;
+    color: #838385;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+#education .content .btn-more{
+    width: 193px;
+    height: 47px;
+    background-size: 193px 47px;
+    display: block;
+    line-height: 47px;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 20px;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/img/home/common/bg_frame.png',  sizingMethod='scale');
+}
+
+#education .main{
+    background: #efefef;
+    padding-top: 60px;
+}
+#education .main h2{
+    margin-bottom: 50px;
+}
+
+#education .main .container{
+    position: relative;
+    width: 60%;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+
+#slider2{
+    position: relative;
+}
+#slider2 .box {
+    width: 320px;
+    margin-right: 10px;
+    float: left;
+}
+#slider2 .box  a{
+    display: inline-block;
+}
+#slider2 .box  img{
+    width: 320px;
+    height: 240px;
+}
+
+#slider2 .box .name{
+    display: inline-block;
+    font-size: 18px;
+    color: #404041;
+    font-weight:bold;
+    max-height: 96px;
+    padding: 23px 0;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main .container>span {
+    position: absolute;
+    top: 44%;
+}
+.prev{
+    left: -7%;
+}
+.next{
+    right:-7%;
+}
+.main .container .pagination{
+    bottom: 10%;
+    left: 0;
+}

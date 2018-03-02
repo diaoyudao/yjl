@@ -1,0 +1,32 @@
+.detail-content{
+    padding: 20px 15px;
+}
+.detail-content .detail-title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+}
+.detail-content .date{
+    display: block;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: #999;
+}
+
+.detail-content  .content{
+    color: #666;
+    font-size: 1.5rem!important;
+}
+
+.detail-content  .content img{
+   width: 100%;
+}
+table{
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+td {
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,107 @@
+
+.section1{
+    position: relative;
+}
+.section1 .pic-box{
+    position: relative;
+    overflow: hidden;
+    height: 486px;
+}
+.content{
+    padding: 50px 60px;
+    color: black;
+    text-align: center;
+}
+
+.content>p{
+    text-align: left;
+    margin-bottom: 90px;
+}
+
+.content a{
+    color: #828282;
+}
+.content li span{
+    font-size: 30px;
+    color: #007069;
+}
+.content h2{
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+.content .title{
+    width: 160px;
+    display: inline-block;
+    padding-bottom: 9px;
+    font-size: 20px;
+    font-weight:bold;
+    color: #007169;
+    white-space: nowrap;
+    text-indent: -10px;
+    border-bottom: 2px solid #007169;
+    margin-bottom: 50px;
+    overflow:visible;
+}
+.content .box li .circle{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.content .box ul{
+    width: 100%;
+}
+.content .box li{
+    position: relative;
+    width: 50%;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.content .box li p{
+    /*padding-bottom: 10px;*/
+    font-size: 13px;
+    color: #9a9a9a;
+    margin-bottom: 10px;
+    height: 40px;
+    line-height: 20px;
+}
+
+.content .box li.l{
+    text-align: right;
+    padding-right: 35px;
+    border-right: 2px solid #007169;
+}
+
+
+.content .box li.r{
+    position: relative;
+    left: -1.6px;
+    text-align: left;
+    padding-left: 35px;
+    margin-left: 50%;
+    border-left: 2px solid #007169;
+}
+
+.content .box li.l .circle{
+    right: -18px;
+}
+.content .box li.r .circle{
+    left: -18px;
+}
+.content .box li span.active{
+    color: #03aa8e;
+}
+
+.content .box li.l.last{
+    border-right: 2px dotted #007169;
+}
+.content .box li.last.end{
+    border: none!important;
+}
+.content .box li.r.last{
+    border-left: 2px dotted #007169;
+}
+.content .box li.last p{
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}

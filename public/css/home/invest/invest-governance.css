@@ -1,0 +1,55 @@
+.pic-box{
+    position: relative;
+    overflow: hidden;
+    height: 490px;
+}
+.content{
+    padding: 40px 0 30px;
+    color: black;
+    text-align: center;
+}
+
+.content>p{
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+.content a{
+    color: #828282;
+}
+.content a{
+    text-decoration: none;
+}
+.contain{
+    width: 1000px;
+    padding-bottom: 85px;
+    margin: auto;
+}
+.contain .item{
+    position: relative;
+    width: 485px;
+    height: 280px;
+    float: left;
+    text-align: center;
+    line-height: 280px;
+    background: url("/public/img/home/invest/governance_p1.jpg") no-repeat;
+    background-size: 485px 280px;
+    margin-bottom: 28px;
+}
+.contain .item:hover{
+    text-decoration: none;
+}
+.contain .item .cover{
+    visibility: hidden;
+    z-index: 1;
+    background: #01514b;
+    background: rgba(1,81,75,.8);
+    filter: alpha(opacity=80);
+}
+.contain .item .word{
+    visibility: hidden;
+    position: relative;
+    z-index: 2;
+    font-size: 30px;
+    color: #fefefe;
+}

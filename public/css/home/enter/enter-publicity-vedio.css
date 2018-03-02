@@ -1,0 +1,56 @@
+body{
+    background: #efefef;
+}
+.container{
+    padding: 0;
+}
+.content{
+    color: black;
+    text-align: center;
+}
+
+.content>p{
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+.content a{
+    color: #404041;
+}
+.content .nav-p a{
+    color: #828282;
+}
+.content h2{
+    font-weight: bold;
+}
+
+.sections .vedio-list li{
+    float: left;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 13px;
+    color: #838383;
+    margin-top: 40px;
+}
+.sections .vedio-list li.fir{
+    margin-left: 0;
+}
+
+.sections .vedio-list li .title{
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pages{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+
+
+

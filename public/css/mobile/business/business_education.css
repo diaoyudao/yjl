@@ -1,0 +1,59 @@
+.col-xs-4{
+    width:32%;
+}
+.col-xs-8{
+   width: 66%;
+}
+.col-xs-5{
+    width: 48.5%;
+}
+.nav-wrap div img{
+    height: 82px;
+}
+.box{
+    position: relative;
+}
+.box .text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 15%;
+    color: #fff;
+}
+.pic-box{
+    position: relative;
+    /*height: 490px;*/
+    overflow: hidden;
+}
+.btn{
+    /*position: absolute;*/
+    /*bottom: 20%;*/
+    /*left: 10%;*/
+}
+.main{
+    margin: 0 auto;width: 50%;
+}
+h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #404040;
+}
+h3{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #404040;
+}
+.fff{
+    color: #fff;
+}
+.bgc{
+    background: #efefef;
+}
+
+.rollpic .prev,.rollpic .next{display:block; height:31px; cursor:pointer; margin-top:100px;overflow: hidden;}
+.rollpic .prev, .rollpic .prev:hover{float:left;width:10%;margin-right:0px;background:url(/public/img/mobile/join/index/prev.png) no-repeat;background-position:center center; background-size:13px 25px;}
+.rollpic .next, .rollpic .next:hover{float:right;width:10%;margin-left:0px;background:url(/public/img/mobile/join/index/next.png) no-repeat;background-position:center center; background-size:13px 25px;}
+.rollpicshow{float:left; border:none;display:inline-block; overflow:hidden;}
+.rollpicshow li{padding:0 ;float:left;width:80%;text-align: center;}
+.rollpicshow li img{width:100%;height:230px;display: block;margin:0 auto;}
+.rollpicshow li .txt{width:100%;}

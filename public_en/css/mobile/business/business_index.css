@@ -1,0 +1,22 @@
+
+#bu-index .butn {
+    text-align: center;
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 80px;*/
+    /*bottom: 50px;*/
+    /*z-index: 20;*/
+}
+
+.section1 .butn span img {
+    /*height: 100%;*/
+}
+
+.section1 .butn > span {
+    /*height: 100%;*/
+}
+.section1 .butn > div {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+}

@@ -1,0 +1,70 @@
+.webuploader-pick {
+    height:34px;width:135px;
+    background: #007069 none repeat scroll 0 0;
+    border-radius: 0px;
+    color: #efefef;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 9px 12px;
+    position: relative;
+    margin-left:5px;margin-top:2px;
+    text-align: center;
+}
+.form input, .form textarea, .form select{
+    display: block;
+    width:100%;height:3rem;
+    margin:0 auto;
+    margin-top:0.4rem;
+    padding:0;
+    border:1px solid #ccc;    
+}
+.form textarea{
+    height:10rem;
+    resize: none;
+}
+.form label{
+    display: block;
+    margin-top:2rem;    
+}
+.form .verify{
+    width:120px;height:40px;border:1px solid #e4e4e4;display: block;
+}
+.check-list{
+    margin: 0;
+    margin-top:0.4rem;
+    padding: 0 0.5rem;
+}
+.check-list .label-check{
+    float:left;
+    width:8rem;
+    text-align: center;
+    height:1.8rem;
+    line-height: 1.8rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+.check-list .label-check input{
+    width:1.6rem;height: 1.6rem;margin: 0;
+}
+.check-list .label-check, .check-list .label-check input{
+    display: inline;
+}
+.select-btn{
+    padding:0 !important;margin: 0;display: inline-block;height: 34px;overflow: hidden;
+}
+.select-btn .webuploader-pick, .up-btn-me{
+    height:34px;padding:10px 0px;text-align: center;font-size:14px;line-height: 14px!important ;
+}
+.up-btn-me{
+    margin-left:10px;
+    margin-top:2px;
+    height:32px;
+    padding:9px 15px;
+    border:1px solid #ccc;
+box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box;
+}
+.btn-submit{
+    width:48%;
+}

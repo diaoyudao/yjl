@@ -1,0 +1,82 @@
+.search{
+    /*padding: 0 0 2rem;*/
+}
+.search .input {
+    line-height: 3rem;
+}
+.content .new-title{
+    text-align: left;
+}
+.search .input input {
+    border: medium none;
+    color: #828282;
+    height: 3rem;
+    outline: medium none;
+    vertical-align: top;
+    width: 85%;
+}
+.search .input .butn {
+    background: #9d7cb3 none repeat scroll 0 0;
+    color: white;
+    display: inline-block;
+    /*font-size: 1.6rem;*/
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0;
+    width: 15%;
+}
+.city{
+    text-align: left;
+}
+
+.city li{
+    display: inline;
+    font-size: 1.2rem;
+    padding-right: 0.5rem;
+}
+
+.city li span {
+    color: #a7a7a7;
+}
+.search ul li.bold span {
+    color: #007169;
+    font-weight: bold;
+}
+
+.list li{
+    float: left;
+    width: 45%;
+    height: 240px;
+    background-color: #fff;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.list li .img{
+    width: 80%;
+    height: 60%;
+    margin-top: 10%;
+}
+.list li .reportTip{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 7%;
+}
+.reportBtn{
+    width: 50%;
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    padding: 0.4rem 0;
+    background-color: #9d7cb3;
+    text-align: center;
+    border-bottom-right-radius: 0.7em;
+    line-height: 1.4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    margin-top: 5%;
+    word-spacing: 10pt;
+}

@@ -1,0 +1,112 @@
+.pic-box {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.second {
+    top: 0;
+    position: absolute;
+    text-align: center;
+    width: 26%;
+}
+.text1{
+    font-size: 1.6rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+.bg-c{
+    background-color: #efefef;
+}
+h2{
+    color: #404040;
+    font-weight: bold;
+    font-size: 2rem;
+}
+ul{
+    position: relative;
+}
+
+.tab-Bar{
+    position: relative;
+    /*display: inline-block;*/
+}
+
+#listContent{
+    height: auto;
+}
+#listContent li{
+    background-color: #fff;
+    margin-top: 10px;
+}
+#listContent li .new-icon{
+    width:8px;height: 8px;
+    margin-top:-4px;
+    margin-right:5px;
+    margin-left: -16px;
+}
+#listContent li .text{
+    display: block;
+    margin-left: 11%;
+    font-size: 1.3rem;
+    width: 82%;
+}
+
+#listContent li .time{
+    display: block;
+    margin-top: 3%;
+    margin-left: 11%;
+    color:#a0a0a0;
+}
+
+.title-list{
+
+}
+
+.title-list li{
+    float:left;
+    width:19%;
+    display: block;
+    color:#fff;
+    font-size:10px;
+    text-align: center;
+}
+.title-list .oper{
+    margin-right:1.2%;
+}
+
+.title-list li .row-data{    
+    background-color: #828282;
+}
+
+.title-list li .active{
+    background-color: #9d7cb3;
+    /*position: relative;*/
+
+}
+.title-list li .row-data{
+    padding: 0.8rem 0;
+}
+.title-list .nav-li img{
+    width: 20px;
+    height:20px;
+    padding-right: 0.2rem;
+}
+/* css 制作三角形 */
+.title-list .icon{
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #9d7cb3;
+
+    position: relative;
+    left:50%;
+    margin-left:-3px;
+    margin-top:-1px;
+}
+
+.title-list .me-hidden{
+    display: none;
+}

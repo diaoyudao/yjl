@@ -1,0 +1,217 @@
+.pic-box{
+    position: relative;
+    overflow: hidden;
+    height: 490px;
+}
+.top-box{
+    position: relative;
+    text-align: center;
+}
+/*.top-box .word{*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*top: 80px;*/
+    /*text-align: center;*/
+
+/*}*/
+/*.top-box .word p{*/
+    /*font-size: 55px;*/
+    /*color: white;*/
+/*}*/
+/*.top-box .word p.en{*/
+    /*font-size: 40px;*/
+/*}*/
+
+.content{
+    position: relative;
+    padding: 50px 0;
+    color: black;
+    text-align: center;
+}
+
+.content>p{
+    text-align: left;
+}
+
+.content a{
+    color: #828282;
+}
+.content h2{
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+
+.content .word-box p{
+    font-size: 15px;
+    text-align: left;
+    color: #515151;
+    margin-top: 40px;
+}
+
+.section .container{
+    padding:0 46px;
+    font-size: 15px;
+    color: #828282;
+    text-align: center;
+}
+.main1 .section p{
+    line-height: 30px;
+    text-align: left;
+}
+.main1 .section h2{
+    margin-bottom: 40px;
+}
+.main1 .section1 p{
+    text-align: left;
+}
+.main1 .section1 p.last{
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+
+.main1 .section2{
+    background: #efefef;
+}
+
+.main1 .section2 h2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.main1 .section2 img{
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 94px;
+}
+
+
+.main1 .section3 .container{
+    padding: 0;
+}
+
+.main1 .section3 h2{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.main1 .section3 .pics{
+    width: 340px;
+}
+.main1 .section3 .word{
+    text-align: left;
+    width: 630px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+.main1 .section3 .word .title{
+    font-size: 20px;
+    color:#007069;
+}
+
+.main1 .section3 p{
+    margin-bottom: 24px;
+}
+
+
+
+.main2 .phones{
+    position: relative;
+}
+
+.main2 .phone .section1{
+    background: #efefef;
+    padding-top: 195px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.main2 .phone .section1 .container{
+
+}
+.main2 .phone .section .head{
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    color: #007069;
+    padding: 15px 30px;
+    border-bottom: 3px solid #007069;
+    top: 2px;
+}
+.main2 .phone .section ul{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    border-top: 1px solid #c7c7c7;
+}
+
+.main2 .phone .section li{
+    float: left;
+    width: 39%;
+    text-align: left;
+}
+.main2 .phone .section li.last{
+    float: right;
+    width: auto;
+}
+.main2 .phone .section li .title{
+    font-size: 20px;
+    font-weight:bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.main2 .phone .section li .icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("/public_en/img/home/business/life/peroperty/property_icon.png") no-repeat;
+    vertical-align: middle;
+}
+
+
+.main2 .phone .section2{
+    text-align: center;
+    margin-top: 50px;
+}
+.main2 .phone .section1 .container{
+    padding-bottom: 40px;
+}
+
+.main2 .phone .section2 .adr{
+    display: inline-block;
+    padding: 10px 15px;
+    background: #0bb296;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main2 .phones{
+    text-align: center;
+}
+
+.main2 .phones .nav{
+    width: 100%;
+    padding: 25px 30px;
+    background: white;
+    top: 50px;
+}
+.main2 .phones .nav li{
+    float: left;
+    width: 7%;
+    padding: 20px 2px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.main2 .phones .nav li.active{
+    color: #007069;
+    border-bottom: 1px solid #007069;
+}
+.main2 .phones>.box{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+.main2 .box .container{
+    padding:0 46px;
+}
+

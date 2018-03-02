@@ -1,0 +1,140 @@
+.bg-c{
+    background-color: rgb(239,239,239);
+}
+
+
+ .content>p{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+ .content a{
+    color: #828282;
+    display: inline-block;
+     width: 48%;
+}
+ .content a:nth-child(3) {
+    margin-right: 15px;
+}
+
+ .content .icon{
+    position: absolute;
+    top: 100%;
+    left: 46%;
+    border: 8px solid transparent;
+    border-top: 8px solid #9d7cb3;
+}
+
+ .content a .point{
+     position: absolute;
+     padding: 20px 0 0 6%;
+}
+ .content h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+ .content .score{
+    width: 100%;
+     height: 36px;
+
+}
+ .content .level{
+     display: inline-block;
+     margin-left:5px;
+     color: #fff;
+     font-size: 14px;
+     padding: 10px 0px;
+     width: 100%;
+     line-height:1.1em;
+     position: relative;
+     cursor: pointer;
+     text-align: center;
+}
+ .content .score a.active{
+    background-color: #9d7cb3;
+}
+/*.section1 .content .level.second{*/
+/*background-color: #7f7f7f;*/
+/*}*/
+ .content .score a{
+    background-color: #7f7f7f;
+}
+ .content .date{
+     display: inline-block;
+     width: 100%;
+     text-align: center;
+     padding-bottom: 10px;
+
+ }
+.form{
+    padding-bottom: 45px;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+}
+
+.form h4{
+    font-weight: bold;
+    padding-top: 30px;
+}
+.form p.date{
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+ .form .table tr{
+    height: 56px;
+}
+ .form .table td{
+    border: 1px solid #efefef;
+    color:#404040;
+     position: relative;
+
+    vertical-align: middle;
+}
+ .f-t{
+     font-size: 10px;
+ }
+ .f-w{
+     font-weight: normal;
+ }
+ .pd-6{
+     padding: 6px;
+ }
+/*.section1 .content .page{*/
+    /*height: 33px;*/
+    /*position: relative;*/
+    /*margin-top: 20px;*/
+/*}*/
+/*.section1 .content .page span{*/
+    /*display: inline-block;*/
+    /*height: 33px;*/
+    /*width: 33px;*/
+    /*line-height: 33px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.section1 .content .page span.active{*/
+    /*background-color: #9d7cb3;*/
+    /*color: white;*/
+/*}*/
+/*.section1 .content .page .prev,*/
+/*.section1 .content .page .next{*/
+    /*cursor: pointer;*/
+/*}*/
+.son{
+    display: none;
+}
+.table-icon{
+    position: absolute;
+    right:7px;
+    top:18px;
+    width:22px;
+    height:22px;
+}
+.icon-tran-rotate{
+    -webkit-transform: rotateZ(180deg);
+            -moz-transform: rotateZ(180deg);
+            -o-transform: rotateZ(180deg);
+            -ms-transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
+}

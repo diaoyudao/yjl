@@ -1,0 +1,107 @@
+.box{
+    width: 100%;
+    background-color: #fff;
+}
+.content {
+
+    color:#000;
+    /*width: 60%;*/
+    text-align: center;
+    margin: auto;
+    padding: 50px 0;
+}
+.content p{
+    text-align: left;
+}
+.content a{
+    color: #828282;
+}
+.content h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.content h4{
+    font-size:15px;
+    color:#999999;
+    margin-bottom: 20px;
+}
+.content .left{
+    float: left;
+    text-align: left;
+}
+.content .phone-list{
+    width: 680px;
+    height: 220px;
+    margin-left:12px;
+    padding:30px 20px;
+    border:none;
+    background-color: #efefef;
+}
+.phone-list ul{
+    margin-left: 20px;
+}
+.content .phone-list li{
+    float: left;
+    width: 300px;
+    height: 75px;
+
+    /*padding: 7px 16px;*/
+    color: white;
+    /*margin-right: 35px;*/
+    margin-top: 10px;
+}
+.content .phone-list .line{
+    height: 1px;
+    width: 540px;
+    margin-top: 50px;
+}
+.phone-list ul li p{
+    font-size: 20px;
+    font-weight: bold;
+    color:#404040;
+}
+.c-999{
+    color:#999;
+    font-size: 15px;
+}
+
+.content .left .title1{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    color:#404040;
+}
+.content .china ul,.content .HongKong ul{
+    margin: 25px 45px 45px 0;
+}
+.content .china,.content .HongKong{
+    padding-left: 10px;
+    /*width: 640px;*/
+}
+.content .left li span{
+    font-size: 15px;
+    color: #999999;
+}
+.content .left li span.no{
+    padding-left: 68px;
+}
+.content .right{
+    float: right;
+}
+.content .right .btn-more{
+    display: block;
+    margin-bottom: 10px;
+    width: 276px;
+    height: 76px;
+    font-size: 20px;
+    color: white;
+    background-size: 276px 76px;
+    line-height: 76px;
+}
+.address{
+    display: inline-flex;
+    width: 600px!important;
+    word-break: break-all;
+    word-wrap: break-word;
+}

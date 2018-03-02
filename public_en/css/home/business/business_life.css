@@ -1,0 +1,164 @@
+#bu-life .sliders{
+    position: relative;
+    height: 490px;
+    overflow: hidden;
+}
+
+/*#bu-life .sliders .box{*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*top: 30%;*/
+    /*text-align: center;*/
+/*}*/
+
+/*#bu-life .sliders .box .title{*/
+    /*font-size: 70px ;*/
+    /*color: white;*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*#bu-life .sliders .box .word{*/
+    /*display: inline-block;*/
+    /*width: 278px;*/
+    /*height: 30px;*/
+    /*background: #007069;*/
+    /*color: white;*/
+    /*font-size: 25px;*/
+    /*letter-spacing: 8px;*/
+    /*line-height: 30px;*/
+    /*margin-top: 20px;*/
+/*}*/
+.col-xs-2{
+    width: 160px;
+}
+.nav-life {
+    width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#bu-life .main{
+    position: relative;
+    background: #007069;
+    padding: 70px 0;
+    color: white;
+    text-align: center;
+}
+
+#bu-life .main h2{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#bu-life .main p{
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    max-height: 210px;
+    overflow: hidden;
+}
+#bu-life .main ul{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center;
+}
+#bu-life .main li{
+    display: inline-block;
+    text-align: center;
+    color: #585858;
+    padding: 30px 0px;
+    margin-right: 1%;
+}
+#bu-life .main li .cover{
+    background: white;
+    background: rgba(255,255,255,.8);
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
+#bu-life .main .btn-more{
+    position: relative;
+    top: 50%;
+    margin-top: -17px;
+}
+
+#bu-life .main li span{
+    display: block;
+    font-size: 18px;
+    margin-top: 9px;
+    height: 62px;
+}
+
+#bu-life .main li .contain{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: 4px solid #9d7cb3;background: white;
+    background: rgba(255,255,255,.8);
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
+
+#bu-life .main li .contain img{
+    margin-top: 34%;
+    width: 65%;
+}
+
+
+#bu-life .content{
+    position: relative;
+    padding: 0 0 100px;
+    color: black;
+    text-align: center;
+}
+
+#bu-life .content>p{
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+#bu-life .content a{
+    color: #828282;
+}
+#bu-life .content h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#bu-life .content .box .left{
+    width: 25%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#bu-life .content .box .left>img{
+    width: 100%;
+    /*box-shadow: 0px 0px 20px #888888;*/
+    /*text-align: center;*/
+    /*filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=165, Strength=3);*/
+}
+
+#bu-life .content .box .right{
+    width: 75%;
+    max-height: 690px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 15px;
+    color: #828282;
+    overflow: auto;
+}
+#bu-life .content .box .right p{
+    font-size: 15px ;
+    color: #838385;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+#bu-life .content .box .right .title{
+    font-size: 20px ;
+    color: #404040;
+    margin-bottom: 25px;
+}

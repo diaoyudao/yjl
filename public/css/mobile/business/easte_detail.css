@@ -1,0 +1,32 @@
+.content p img {
+    width: 100%;
+}
+
+.box{
+    border: #e9e9e9 solid .1rem;
+    /*border-left:none ;*/
+    /*border-right:none ;*/
+}
+.tabs{
+    text-align: center;
+}
+.tabs li{
+    border: 1px solid #b7b7b7;
+    display: inline-block;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 30%;
+}
+.tabs li.active {
+    background: #9d7cb3 none repeat scroll 0 0;
+    color: white;
+}
+
+.rollpic .prev,.rollpic .next{display:block; height:31px;width:8%; margin-top:45px;overflow: hidden;}
+.rollpic .prev, .rollpic .prev:hover{float:left;margin-left:0px;margin-right:0px;background:url(/public/img/mobile/join/index/prev.png) no-repeat;background-position:center center; background-size:13px 25px}
+.rollpic .next, .rollpic .next:hover{float:right;margin-left:0px;margin-right:0px;background:url(/public/img/mobile/join/index/next.png) no-repeat;background-position:center center; background-size:13px 25px}
+.rollpicshow{float:left;width:83%; height:120px; border:none;display:block; overflow:hidden;}
+.rollpicshow li{padding:0;float:left;position:relative;display:block;width:50%;text-align: center;border:none;}
+.rollpicshow li img{width:96%;height:120px;display: block;border:none;margin: 0 2%;}
+.rollpicshow li .txt{width:96%;position: absolute;bottom: 0rem;background:#4b4c4c;color: #fff;opacity:0.8;margin: 0 2%;}
+.rollpicshow li .txt p{color: #fff;}

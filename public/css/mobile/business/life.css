@@ -1,0 +1,27 @@
+body{font-size:1.4rem;}
+.life-list{
+    padding-top: 3rem;
+    padding-bottom:3rem;
+    display: block;
+}
+.life-list:after{
+    clear: both;
+}
+
+.life-list .lift-btn{
+    margin:0;    
+    padding:1rem 0 1rem;
+    padding-top:1rem;
+    background-color: #fff;
+    border:none;
+    display: block;
+    float:left;width:15%;
+}
+.life-list .oper{
+    margin-right:2%;
+}
+.life-list .lift-btn >img{
+    width:1.5rem;height:1.5rem;display: block;margin:0 auto;
+}
+.lift-btn .txt{}
+.f-7{font-size:1.0rem;}

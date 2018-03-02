@@ -1,0 +1,28 @@
+.picBox{
+    padding-bottom: 20px;
+}
+
+.picBox img{
+    width: 100%;
+}
+.video-title{
+    color: #404040;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.video1{
+    width: 40%;
+    margin-left: 6%;
+}
+.video2{
+    width: 40%;
+    margin-left: 7%;
+}
+.much{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}

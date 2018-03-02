@@ -1,0 +1,98 @@
+.bg-c{
+    background-color: #efefef;
+}
+.content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+.content h3{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.content .option-bg{
+    width: 100%;
+    height: 46px;
+    background-color:#007069;
+}
+.content .option-bg .option{
+    position: relative;
+    top: 5px;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    text-indent: 0em;
+    display: inline-table;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+.content .option-bg .option li{
+    float: left;
+    list-style: none;
+    color: white;
+    margin-left: 9px;
+}
+.content .current{
+    color:#7dede6!important; ;
+    border-bottom: 1px solid #7dede6;
+}
+.content .option-content{
+    width: 100%;
+}
+.content .option-content ul{
+    width: 100%;
+    text-indent: 0em;
+}
+.content .option-content ul li{
+    position: relative;
+    margin-top: 20px;
+    list-style: none;
+    background-color: #fff;
+}
+.content .active{
+    display: block;
+}
+.content .option-content ul li .icon{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 2;
+}
+.content .option-content ul li .box{
+    width: 95%;
+    height: 70%;
+    margin: auto;
+    /* vertical-align: middle; */
+    display: inline-block;
+}
+.content .option-content ul li .content-img{
+    width: 32%;
+    display: block;
+    float: left;
+    margin-top: 7px;
+
+}
+.content .option-content ul li .new-title{
+    font-size: 1.4rem;
+    color: #636363;
+    font-weight: bold;
+    float: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 61%;
+    margin-right: 11px;
+}
+.content .option-content ul li .new-content{
+    /* position: absolute; */
+    font-size: 1.3rem;
+    color: #999999;
+    text-align: left;
+    text-indent: 0;
+    float: right;
+    /* margin-top: -13%; */
+    width: 63%;
+
+}

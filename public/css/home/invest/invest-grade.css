@@ -1,0 +1,104 @@
+.section1{
+    background-color: #efefef;
+}
+.section1 .content{
+    padding: 20px 0;
+    color: black;
+    width: 60%;
+    text-align: center;
+    /*position: relative;*/
+}
+.section1 .content>p{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.section1 .content a{
+    color: #828282;
+    display: inline-block;
+}
+.section1 .content a:nth-child(3) {
+    margin-right: 15px;
+}
+
+.section1 .content .icon{
+    position: absolute;
+    top: 100%;
+    left: 46%;
+    border: 8px solid transparent;
+    border-top: 8px solid #9d7cb3;
+}
+
+.section1 .content a .point{
+    position: absolute;
+   padding: 19px 0 0 60px;
+}
+.section1 .content h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.section1 .content .score{
+    width: 100%;
+
+}
+.section1 .content .level{
+    display: inline-block;
+    color:#fff;
+    font-size: 20px;
+    padding: 10px 95px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.section1 .content .score a.active{
+    background-color: #9d7cb3;
+}
+/*.section1 .content .level.second{*/
+    /*background-color: #7f7f7f;*/
+/*}*/
+.section1 .content .score a{
+    background-color: #7f7f7f;
+}
+.form{
+    /*background-color: #fff;*/
+    padding: 0 30px 60px 30px;
+    margin-bottom: 60px;
+}
+.form h4{
+    font-weight: bold;
+    padding-top: 60px;
+}
+.form p.date{
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.section1 .content .form .table tr{
+    height: 56px;
+}
+.section1 .content .form .table td{
+    border: 1px solid #efefef;
+    color:#404040;
+    vertical-align: middle;
+}
+.section1 .content .page{
+    height: 33px;
+    position: relative;
+    margin-top: 20px;
+}
+.section1 .content .page span{
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+    line-height: 33px;
+    cursor: pointer;
+}
+.section1 .content .page span.active{
+    background-color: #9d7cb3;
+    color: white;
+}
+.section1 .content .page .prev,
+.section1 .content .page .next{
+    cursor: pointer;
+}

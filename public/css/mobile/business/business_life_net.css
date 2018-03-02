@@ -1,0 +1,49 @@
+.main img{
+    width: 100%;
+}
+h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #404040;
+}
+h3{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #404040;
+}
+.fff{
+    color: #fff;
+}
+.bg-c{
+    background: #efefef;
+}
+.box{
+    display: inline-block;
+}
+.icon{
+    width: 70px;
+    float: left;
+    display: block;
+    /* vertical-align: middle; */
+    margin-top: 9px;
+}
+.app li{
+    border-bottom: 1px solid #bababa;
+}
+.title{
+    float: left;
+    text-indent: 0;
+    margin-left: 38px;
+    margin-top: 13px;
+}
+.text{
+    font-size: 1.3rem;
+    color: #999999;
+    text-align: left;
+    text-indent: 0;
+    float: left;
+    /* margin-top: -13%; */
+    width: 60%;
+    margin-left: 38px;
+
+}

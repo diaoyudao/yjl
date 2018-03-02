@@ -1,0 +1,33 @@
+.bgc{
+    background: #efefef;
+}
+.search{
+    line-height: 3rem;
+}
+.input{
+    border: medium none;
+    color: #828282;
+    height: 3rem;
+    outline: medium none;
+    vertical-align: top;
+    width: 83%;
+}
+.butn{
+    background: #9d7cb3;
+    color: white;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0;
+    width: 15%;
+
+}
+h2{
+    color:#404040;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+h3{
+    color:#404040;
+    font-size: 1.6rem;
+    font-weight: bold;
+}

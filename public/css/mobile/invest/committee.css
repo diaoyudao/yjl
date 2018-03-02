@@ -1,0 +1,30 @@
+.top-title{
+	width:75%;
+	height:3rem;
+	line-height: 3rem;
+	margin:0 auto;
+	margin-top:30px;
+	font-size:1.6rem;
+	font-weight: 600;
+	background-color: #01756e;
+	color:#fff;
+	letter-spacing:0.3rem;
+}
+
+.bottom-btn{
+            width:70%;
+            margin:0 auto;
+            margin-top:15px;
+            padding:0.8rem 0;
+            background-color:#0bb296;
+            text-align:center;
+            line-height:1.4rem;
+            font-size:1.4rem;
+            color:#fff;
+}
+
+.hr-oper{
+	height:1px;
+	border:none;border-top:1px solid #ccc;
+	margin-top:30px;
+}
