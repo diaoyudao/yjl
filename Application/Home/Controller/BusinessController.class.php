@@ -21,6 +21,7 @@ class BusinessController extends Controller
             'environment'=>'环保',
             'hotel'=>'酒店',
             'build'=>'建设',
+            'agency'=>'代建',
         ];
 
         // $data['status'] = C('STATUS_VALID');
@@ -41,6 +42,7 @@ class BusinessController extends Controller
         $build_images = $image->getImage($show_tags_lists['build']);
         $environment_images = $image->getImage($show_tags_lists['environment']);
         $hotel_images = $image->getImage($show_tags_lists['hotel']);
+        $agency_images = $image->getImage($show_tags_lists['agency']);
 
         $mobile_head_images = $image->getMobileImage($show_tags_lists['head']);
         $mobile_life_images = $image->getMobileImage($show_tags_lists['life']);
@@ -48,6 +50,7 @@ class BusinessController extends Controller
         $mobile_build_images = $image->getMobileImage($show_tags_lists['build']);
         $mobile_environment_images = $image->getMobileImage($show_tags_lists['environment']);
         $mobile_hotel_images = $image->getMobileImage($show_tags_lists['hotel']);
+        $mobile_agency_images = $image->getMobileImage($show_tags_lists['agency']);
 
         $this->assign('head_images', $head_images);
         $this->assign('life_images', $life_images);
@@ -55,6 +58,7 @@ class BusinessController extends Controller
         $this->assign('build_images', $build_images);
         $this->assign('environment_images', $environment_images);
         $this->assign('hotel_images', $hotel_images);
+        $this->assign('agency_images', $agency_images);
 
         $this->assign('mobile_head_images', $mobile_head_images);
         $this->assign('mobile_life_images', $mobile_life_images);
@@ -62,6 +66,7 @@ class BusinessController extends Controller
         $this->assign('mobile_build_images', $mobile_build_images);
         $this->assign('mobile_environment_images', $mobile_environment_images);
         $this->assign('mobile_hotel_images', $mobile_hotel_images);
+        $this->assign('mobile_agency_images', $mobile_agency_images);
 
 //        $this->assign('counts', $counts);
         $this->display();

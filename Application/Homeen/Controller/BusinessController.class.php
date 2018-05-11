@@ -12,59 +12,64 @@ class BusinessController extends Controller
 
     public function index()
     {
-        $show_tags_lists = [
-            'land' => 'land',
-            'is_sales' => '1',
-            'head' => '头部图片',
-            'life' => '雅生活',
-            'education' => '教育',
-            'environment' => '环保',
-            'hotel' => '酒店',
-            'build' => '建设',
-        ];
-
-        // $data['status'] = C('STATUS_VALID');
-        // $data['tags'] = $show_tags_lists['land'];
-        // $data['is_sales'] = $show_tags_lists['is_sales'];
-
-        // $model = M('land');
-        // $counts = $model->where($data)->order("weight desc,begin_time desc")->count();
-        // 
-        $parameter = $this->parameterCheck();
-        //头图
-        $level_id = $parameter['level_id'];
-
-        $image = new Image($level_id);
-        $head_images = $image->getImage($show_tags_lists['head']);
-        $life_images = $image->getImage($show_tags_lists['life']);
-        $education_images = $image->getImage($show_tags_lists['education']);
-        $build_images = $image->getImage($show_tags_lists['build']);
-        $environment_images = $image->getImage($show_tags_lists['environment']);
-        $hotel_images = $image->getImage($show_tags_lists['hotel']);
-
-        $mobile_head_images = $image->getMobileImage($show_tags_lists['head']);
-        $mobile_life_images = $image->getMobileImage($show_tags_lists['life']);
-        $mobile_education_images = $image->getMobileImage($show_tags_lists['education']);
-        $mobile_build_images = $image->getMobileImage($show_tags_lists['build']);
-        $mobile_environment_images = $image->getMobileImage($show_tags_lists['environment']);
-        $mobile_hotel_images = $image->getMobileImage($show_tags_lists['hotel']);
-
-        $this->assign('head_images', $head_images);
-        $this->assign('life_images', $life_images);
-        $this->assign('education_images', $education_images);
-        $this->assign('build_images', $build_images);
-        $this->assign('environment_images', $environment_images);
-        $this->assign('hotel_images', $hotel_images);
-
-        $this->assign('mobile_head_images', $mobile_head_images);
-        $this->assign('mobile_life_images', $mobile_life_images);
-        $this->assign('mobile_education_images', $mobile_education_images);
-        $this->assign('mobile_build_images', $mobile_build_images);
-        $this->assign('mobile_environment_images', $mobile_environment_images);
-        $this->assign('mobile_hotel_images', $mobile_hotel_images);
+		$show_tags_lists = [
+			'land' => 'land',
+			'is_sales' => '1',
+			'head'=>'头部图片',
+			'life'=>'雅生活',
+			'education'=>'教育',
+			'environment'=>'环保',
+			'hotel'=>'酒店',
+			'build'=>'建设',
+			'agency'=>'代建',
+		];
+	
+		// $data['status'] = C('STATUS_VALID');
+		// $data['tags'] = $show_tags_lists['land'];
+		// $data['is_sales'] = $show_tags_lists['is_sales'];
+	
+		// $model = M('land');
+		// $counts = $model->where($data)->order("weight desc,begin_time desc")->count();
+		//
+		$parameter = $this->parameterCheck();
+		//头图
+		$level_id = $parameter['level_id'];
+	
+		$image = new Image($level_id);
+		$head_images = $image->getImage($show_tags_lists['head']);
+		$life_images = $image->getImage($show_tags_lists['life']);
+		$education_images = $image->getImage($show_tags_lists['education']);
+		$build_images = $image->getImage($show_tags_lists['build']);
+		$environment_images = $image->getImage($show_tags_lists['environment']);
+		$hotel_images = $image->getImage($show_tags_lists['hotel']);
+		$agency_images = $image->getImage($show_tags_lists['agency']);
+	
+		$mobile_head_images = $image->getMobileImage($show_tags_lists['head']);
+		$mobile_life_images = $image->getMobileImage($show_tags_lists['life']);
+		$mobile_education_images = $image->getMobileImage($show_tags_lists['education']);
+		$mobile_build_images = $image->getMobileImage($show_tags_lists['build']);
+		$mobile_environment_images = $image->getMobileImage($show_tags_lists['environment']);
+		$mobile_hotel_images = $image->getMobileImage($show_tags_lists['hotel']);
+		$mobile_agency_images = $image->getMobileImage($show_tags_lists['agency']);
+	
+		$this->assign('head_images', $head_images);
+		$this->assign('life_images', $life_images);
+		$this->assign('education_images', $education_images);
+		$this->assign('build_images', $build_images);
+		$this->assign('environment_images', $environment_images);
+		$this->assign('hotel_images', $hotel_images);
+		$this->assign('agency_images', $agency_images);
+	
+		$this->assign('mobile_head_images', $mobile_head_images);
+		$this->assign('mobile_life_images', $mobile_life_images);
+		$this->assign('mobile_education_images', $mobile_education_images);
+		$this->assign('mobile_build_images', $mobile_build_images);
+		$this->assign('mobile_environment_images', $mobile_environment_images);
+		$this->assign('mobile_hotel_images', $mobile_hotel_images);
+		$this->assign('mobile_agency_images', $mobile_agency_images);
 
 //        $this->assign('counts', $counts);
-        $this->display();
+		$this->display();
     }
 
     public function estate()

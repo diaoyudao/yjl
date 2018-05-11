@@ -111,6 +111,14 @@
             <div class="btn-more main-btn-s">More</div>
         </a>
     </div>
+    <div class="row ">
+        <img class="img-responsive" src="{$mobile_agency_images[0].image_url1}"
+             traditional_image="{$mobile_agency_images[0].image_url2}"
+             simplified_image="{$mobile_agency_images[0].image_url1}">
+        <a href="http://www.agile-pm.com.cn" target="_blank">
+            <div class="btn-more main-btn-s">More</div>
+        </a>
+    </div>
 </block>
 
 <block name="footer_js">

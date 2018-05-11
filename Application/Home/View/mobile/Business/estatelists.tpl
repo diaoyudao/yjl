@@ -96,7 +96,7 @@
         <ul>
             <li class="side-tel">
                 <img src="/public/img/home/business/estate/detail/estate_icon1.png" alt="">
-                <div class="tel-box"><a href="tel://400-020-3383">400-020-3383</a></div>
+                <div class="tel-box"><a href="tel://400-698-3383">400-698-3383</a></div>
             </li>
             <li class="side-xin"><img src="/public/img/home/business/estate/detail/estate_icon4.png" alt="">
                 <div class="xin-box">

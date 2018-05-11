@@ -11,7 +11,7 @@
             <div class="row cl "><span class="f-18 c-white"><strong>联系我们</strong></span></div>
             <div class="row cl mt-20 pt-20 pb-20 txt-r f-12" style="background-color: #fff;">
                 <div class="row cl main-color">
-                    <div class="col-xs-7 txt-r"><strong>雅居乐地产</strong>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<img class="txt-image" src="/public/img/home/contact/icon4.png">&nbsp;电话：</div><div class="col-xs-5 txt-l" >400-020-3383</div>
+                    <div class="col-xs-7 txt-r"><strong>雅居乐地产</strong>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<img class="txt-image" src="/public/img/home/contact/icon4.png">&nbsp;电话：</div><div class="col-xs-5 txt-l" >400-698-3383</div>
                 </div>
                 <div class="row cl main-color">
                     <span class="col-xs-7 txt-r"><strong>雅居乐物业</strong>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<img class="txt-image" src="/public/img/home/contact/icon4.png">&nbsp;电话：</span><span class="col-xs-5 txt-l" >400-698-3383</span>

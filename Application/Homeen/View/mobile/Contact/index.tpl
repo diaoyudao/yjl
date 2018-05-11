@@ -13,7 +13,7 @@
 
                 <div class="row cl main-color" style="vertical-align: middle;">
                     <span class="col-xs-7 txt-r" style="width: 37%"><strong>Agile Property</strong></span>
-                    <span class="col-xs-5 txt-l" style="width: 63%;">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<img class="txt-image" src="/public_en/img/home/contact/icon4.png">&nbsp;Tel：400-020-3383</span>
+                    <span class="col-xs-5 txt-l" style="width: 63%;">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<img class="txt-image" src="/public_en/img/home/contact/icon4.png">&nbsp;Tel：400-698-3383</span>
                 </div>
 
                 <div class="row cl main-color" style="position: relative;">

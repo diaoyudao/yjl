@@ -29,7 +29,7 @@ return array(
     /* 数据库链接设置begin */
     'DB_PREFIX' => '',  // 配置数据表的前缀
     'DB_TYPE' => 'mysql', // 数据库类型
-    'DB_HOST' => '172.16.30.128', // 服务器地址
+    'DB_HOST' => '172.16.30.125', // 服务器地址
     'DB_NAME' => 'yjl_cms', // 数据库名
     'DB_USER' => 'mysqluser', // 用户名
     'DB_PWD' => 'tt@test', // 密码 Jx2137*9@!

@@ -16,7 +16,7 @@
                         <li style="margin-top: 0;">
                             <p style="font-size: 20px;">Agile Property</p>
                             <div class="c-999"><img src="/public_en/img/home/contact/icon4.png" alt=""
-                                                    style="height:25px;width:25px;margin-right: 10px;">Tel: 400-020-3383
+                                                    style="height:25px;width:25px;margin-right: 10px;">Tel: 400-698-3383
                             </div>
                         </li>
                         <li style="margin-top: 0;">

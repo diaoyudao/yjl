@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="/public/css/home/news/news-index.css">
 </block>
 <block name="head_common2">
-    <script src="/public/js/lib/tab.js"></script>
+    <!--<script src="/public/js/lib/tab.js"></script>-->
 </block>
 <block name="title">新闻中心-雅居乐集团</block>
 
@@ -31,10 +31,15 @@
             <ul class="item">
                 <!--<li class="active first"><img src="/public/img/home/news/icon1.png" alt="">全部</li>-->
                 <li class="active first"><img src="/public/img/home/news/icon2.png" alt="">地产</li>
-                <li class="live"><img src="/public/img/home/news/icon3.png" alt="">雅生活</li>
+                <!--<li class="live"><img src="/public/img/home/news/icon3.png" alt="">雅生活</li>
                 <li><img src="/public/img/home/news/icon4.png" alt="">教育</li>
                 <li><img src="/public/img/home/news/icon5.png" alt="">环保</li>
-                <li class="aler"><img src="/public/img/home/news/icon6.png"  alt="">建设</li>
+                <li class="aler"><img src="/public/img/home/news/icon6.png"  alt="">建设</li>-->
+                <li class="live"><a target="_blank" href="http://agile-living.agile.com.cn/yjl/News/index" style="color: #fff;"><img src="/public/img/home/news/icon3.png" alt="">雅生活</a></li>
+                <li><a target="_blank" href="http://www.agile-edu.cn/news" style="color: #fff;"><img src="/public/img/home/news/icon4.png" alt="">教育</a></li>
+                <li><a target="_blank" href="http://www.environ.agile.com.cn/index.php?m=Group&pid=2" style="color: #fff;"><img src="/public/img/home/news/icon5.png" alt="">环保</a></li>
+                <li><a target="_blank" href="http://www.agilebuild.com.cn/HTML/dist/newsCenter_groupList.html" style="color: #fff;"><img src="/public/img/home/news/icon6.png"  alt="">建设</a></li>
+
             </ul>
             <span class="icon icon0"></span>
             <span class="icon icon1" style="display: none;"></span>

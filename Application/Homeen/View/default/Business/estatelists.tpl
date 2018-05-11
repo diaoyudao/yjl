@@ -115,7 +115,7 @@
         <ul>
             <li class="side-tel">
                 <img src="/public_en/img/home/business/estate/detail/estate_icon1.png" alt="">
-                <div class="tel-box">400-020-3383</div>
+                <div class="tel-box">400-698-3383</div>
             </li>
             <!--<li><a href=""><img src="/public_en/img/home/business/estate/detail/estate_icon2.png" alt=""></a>-->
             <!--</li>-->

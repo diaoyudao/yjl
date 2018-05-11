@@ -96,9 +96,9 @@
         </div>
         <div class="mt-20">
             <h3 class="title-color min-title" style="color: #00716a;">雅居乐的楼盘
-                遍布全国逾40个城市</h3>
+                遍布全国逾60个城市</h3>
             <p class="mt-10">
-                雅居乐地产实现全国战略性布局，并拓展至海外——马来西亚，筑造逾100处不同发展阶段的城市豪宅、高端别墅、生活大盘、旅游地产、商业中心、星级酒店等标杆性项目。
+                雅居乐地产实现全国战略性布局，并拓展至海外，筑造逾100处不同发展阶段的城市豪宅、高端别墅、生活大盘、旅游地产、商业中心、星级酒店等标杆性项目。
             </p>
         </div>
 
@@ -198,7 +198,7 @@
         <ul>
             <li class="side-tel">
                 <img src="/public/img/home/business/estate/detail/estate_icon1.png" alt="">
-                <div class="tel-box"><a href="tel://400-020-3383">400-020-3383</a></div>
+                <div class="tel-box"><a href="tel://400-698-3383">400-698-3383</a></div>
             </li>
             <li class="side-xin"><img src="/public/img/home/business/estate/detail/estate_icon4.png" alt="">
                 <div class="xin-box">

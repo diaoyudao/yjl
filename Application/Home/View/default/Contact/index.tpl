@@ -15,7 +15,7 @@
                     <ul style="overflow: hidden;">
                         <li style="margin-top: 0;">
                             <p style="font-size: 20px;">雅居乐地产</p>
-                            <div class="c-999"><img src="/public/img/home/contact/icon4.png" alt="" style="height:25px;width:25px;margin-right: 10px;">电话: 400-020-3383</div>
+                            <div class="c-999"><img src="/public/img/home/contact/icon4.png" alt="" style="height:25px;width:25px;margin-right: 10px;">电话: 400-698-3383</div>
                         </li>
                         <li style="margin-top: 0;">
                             <p style="font-size: 20px;">雅居乐物业</p>

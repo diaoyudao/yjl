@@ -18,176 +18,220 @@
             <a href="/news/detail?id={$head_notice.notice_id}"><p class="text1 pb-10">{$head_notice.name}</p></a>
             <span class="text2">{$head_notice.desc}</span>
 
-        </div>       
+        </div>
         <div class="mt-20 pb-30">
             <h2 class="txt-center">媒体报道</h2>
             <div id="" class="mt-20 tab-Bar">
-                <ul class="row cl txt-center title-list" >
+                <ul class="row cl txt-center title-list">
                     <li class="nav-li  oper ">
-                    <div class="row-data active"><img src="/public/img/home/news/icon2.png">
-                        地产</div>
+                        <div class="row-data active"><img src="/public/img/home/news/icon2.png">
+                            地产
+                        </div>
                         <span class="row icon"></span>
                     </li>
                     <li class="nav-li oper">
-                        <div class="row-data"><img src="/public/img/home/news/icon3.png">
-                        雅生活
-                        </div>
-                         <span class="row icon me-hidden"></span>
+                        <a target="_blank" href="http://agile-living.agile.com.cn/yjl/News/index" style="color: #fff;">
+                            <div class="row-data"><img src="/public/img/home/news/icon3.png">
+                                雅生活
+                            </div>
+                            <span class="row icon me-hidden"></span>
+                        </a>
                     </li>
                     <li class="nav-li oper">
-                    <div class="row-data"><img src="/public/img/home/news/icon4.png">
-                        教育</div>
-                         <span class="row icon me-hidden"></span>
+                        <a target="_blank" href="http://www.agile-edu.cn/news" style="color: #fff;">
+                            <div class="row-data"><img src="/public/img/home/news/icon4.png">
+                                教育
+                            </div>
+                            <span class="row icon me-hidden"></span>
+                        </a>
                     </li>
                     <li class="nav-li  oper ">
-                    <div class="row-data"><img src="/public/img/home/news/icon5.png">
-                        环保</div>
-                        <span class="row icon me-hidden"></span>
+                        <a target="_blank" href="http://www.environ.agile.com.cn/index.php?m=Group&pid=2" style="color: #fff;">
+                            <div class="row-data"><img src="/public/img/home/news/icon5.png">
+                                环保
+                            </div>
+                            <span class="row icon me-hidden"></span>
+                        </a>
                     </li>
                     <li class="nav-li">
-                    <div class="row-data"><img src="/public/img/home/news/icon6.png">
-                        建设</div>
-                        <span class="row icon me-hidden"></span>
+                        <a target="_blank" href="http://www.agilebuild.com.cn/HTML/dist/newsCenter_groupList.html" style="color: #fff;">
+                            <div class="row-data"><img src="/public/img/home/news/icon6.png">
+                                建设
+                            </div>
+                            <span class="row icon me-hidden"></span>
+                        </a>
                     </li>
+                    <!--<li class="nav-li oper">
+                       <div class="row-data"><img src="/public/img/home/news/icon3.png">
+                       雅生活
+                       </div>
+                        <span class="row icon me-hidden"></span>
+                   </li>
+                   <li class="nav-li oper">
+                   <div class="row-data"><img src="/public/img/home/news/icon4.png">
+                       教育</div>
+                        <span class="row icon me-hidden"></span>
+                   </li>
+                   <li class="nav-li  oper ">
+                   <div class="row-data"><img src="/public/img/home/news/icon5.png">
+                       环保</div>
+                       <span class="row icon me-hidden"></span>
+                   </li>
+                   <li class="nav-li">
+                   <div class="row-data"><img src="/public/img/home/news/icon6.png">
+                       建设</div>
+                       <span class="row icon me-hidden"></span>
+                   </li>-->
+
                 </ul>
 
                 <div class="news-box">
                     <ul id="listContent">
-                      <volist name="one_estate_notices" id="item">
-                          <li>
-                            <div class="pt-10 pb-10">
-                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
-                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
-                              </span>
-                              <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
-                            </div>
-                          </li>
-                       </volist>     
-                       <volist name="estate_notices" id="item">
-                          <li>
-                            <div class="pt-10 pb-10">
-                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
-                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
-                              </span>
-                              <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
-                            </div>
-                          </li>
-                       </volist>                       
-                    </ul>
-                    <a class="fff" href="/news/estate?level_id=1000000164"><div class="row cl mt-20 main-btn">查看更多</div></a>
-                </div>
-                <div class="news-box me-hidden" >
-                    <ul id="listContent">
-                    <volist name="one_life_notices" id="item">
-                          <li>
-                            <div class="pt-10 pb-10">
-                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
-                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
-                              </span>
-                              <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
-                            </div>
-                          </li>
-                       </volist>
-                       <volist name="life_notices" id="item">
-                          <li>
-                            <div class="pt-10 pb-10">
-                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
-                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
-                              </span>
-                              <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
-                            </div>
-                          </li>
-                       </volist>
-                    </ul>
-                    <a class="fff" href="/news/life?level_id=1000000163"><div class="row cl mt-20 main-btn">查看更多</div></a>
-                 </div>
-                <div class="news-box me-hidden" >
-                    <ul id="listContent">
-                     <volist name="one_education_notices" id="item">
-                          <li>
-                            <div class="pt-10 pb-10">
-                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
-                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
-                              </span>
-                              <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
-                            </div>
-                          </li>
-                       </volist>
-                        <volist name="education_notices" id="item">
-                          <li>
-                            <div class="pt-10 pb-10">
-                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
-                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
-                              </span>
-                              <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
-                            </div>
-                          </li>
-                       </volist>
-                    </ul>
-                    <a class="fff" href="/news/education?level_id=1000000162"><div class="row cl mt-20 main-btn">查看更多</div></a>
-                </div>
-                <div class="news-box me-hidden" >
-                    <ul id="listContent">
-                     <volist name="one_environment_notices" id="item">
-                          <li>
-                            <div class="pt-10 pb-10">
-                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
-                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
-                              </span>
-                              <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
-                            </div>
-                          </li>
-                       </volist>
-                       <volist name="environment_notices" id="item">
-                          <li>
-                            <div class="pt-10 pb-10">
-                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
-                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
-                              </span>
-                              <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
-                            </div>
-                          </li>
-                       </volist>
-                    </ul>
-                    <a class="fff" href="/news/environment?level_id=1000000161"><div class="row cl mt-20 main-btn">查看更多</div></a>
-                </div>
-                <div class="news-box me-hidden" >
-                    <ul id="listContent">
-                       
-                    </ul>
-                </div>
-
-            </div>
-             
-
-              <div class="mt-40 pb-30">
-                   <h2 class="txt-center">集团新闻</h2>
-              </div>
-                    <ul id="listContent">
-                       <volist name="one_group_notices" id="item">
-                          <li>
-                            <div class="pt-10 pb-10">
-                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
-                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
-                              </span>
-                              <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
-                            </div>
-                          </li>
-                       </volist>
-                        <volist name="group_notices" id="item">
+                        <volist name="one_estate_notices" id="item">
                             <li>
                                 <div class="pt-10 pb-10">
-                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png">
+                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
                               <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
                               </span>
-                                    <span class="time">发布时间 : <php>echo (new
-                                            \DateTime($item['begin_time']))->format('Y年m月');
-                                        </php></span>
+                                    <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
+                                </div>
+                            </li>
+                        </volist>
+                        <volist name="estate_notices" id="item">
+                            <li>
+                                <div class="pt-10 pb-10">
+                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
+                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
+                              </span>
+                                    <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
                                 </div>
                             </li>
                         </volist>
                     </ul>
-              <a style="color:#fff" class="fff" href="/news/group?level_id=1000000142"><div class="row cl mt-20 main-btn">查看更多</div></a>
+                    <a class="fff" href="/news/estate?level_id=1000000164">
+                        <div class="row cl mt-20 main-btn">查看更多</div>
+                    </a>
+                </div>
+                <div class="news-box me-hidden">
+                    <ul id="listContent">
+                        <volist name="one_life_notices" id="item">
+                            <li>
+                                <div class="pt-10 pb-10">
+                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
+                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
+                              </span>
+                                    <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
+                                </div>
+                            </li>
+                        </volist>
+                        <volist name="life_notices" id="item">
+                            <li>
+                                <div class="pt-10 pb-10">
+                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
+                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
+                              </span>
+                                    <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
+                                </div>
+                            </li>
+                        </volist>
+                    </ul>
+                    <a class="fff" href="/news/life?level_id=1000000163">
+                        <div class="row cl mt-20 main-btn">查看更多</div>
+                    </a>
+                </div>
+                <div class="news-box me-hidden">
+                    <ul id="listContent">
+                        <volist name="one_education_notices" id="item">
+                            <li>
+                                <div class="pt-10 pb-10">
+                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
+                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
+                              </span>
+                                    <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
+                                </div>
+                            </li>
+                        </volist>
+                        <volist name="education_notices" id="item">
+                            <li>
+                                <div class="pt-10 pb-10">
+                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
+                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
+                              </span>
+                                    <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
+                                </div>
+                            </li>
+                        </volist>
+                    </ul>
+                    <a class="fff" href="/news/education?level_id=1000000162">
+                        <div class="row cl mt-20 main-btn">查看更多</div>
+                    </a>
+                </div>
+                <div class="news-box me-hidden">
+                    <ul id="listContent">
+                        <volist name="one_environment_notices" id="item">
+                            <li>
+                                <div class="pt-10 pb-10">
+                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
+                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
+                              </span>
+                                    <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
+                                </div>
+                            </li>
+                        </volist>
+                        <volist name="environment_notices" id="item">
+                            <li>
+                                <div class="pt-10 pb-10">
+                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
+                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
+                              </span>
+                                    <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
+                                </div>
+                            </li>
+                        </volist>
+                    </ul>
+                    <a class="fff" href="/news/environment?level_id=1000000161">
+                        <div class="row cl mt-20 main-btn">查看更多</div>
+                    </a>
+                </div>
+                <div class="news-box me-hidden">
+                    <ul id="listContent">
+
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="mt-40 pb-30">
+                <h2 class="txt-center">集团新闻</h2>
+            </div>
+            <ul id="listContent">
+                <volist name="one_group_notices" id="item">
+                    <li>
+                        <div class="pt-10 pb-10">
+                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png"> 
+                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
+                              </span>
+                            <span class="time">发布时间 : <php>echo (new \DateTime($item['begin_time']))->format('Y年m月');</php></span>
+                        </div>
+                    </li>
+                </volist>
+                <volist name="group_notices" id="item">
+                    <li>
+                        <div class="pt-10 pb-10">
+                              <span class="text"><img class="new-icon" src="/public/img/mobile/enter/point-bg.png">
+                              <a href="/news/detail?id={$item.notice_id}">{$item.name}</a>
+                              </span>
+                            <span class="time">发布时间 : <php>echo (new
+                                            \DateTime($item['begin_time']))->format('Y年m月');
+                                        </php></span>
+                        </div>
+                    </li>
+                </volist>
+            </ul>
+            <a style="color:#fff" class="fff" href="/news/group?level_id=1000000142">
+                <div class="row cl mt-20 main-btn">查看更多</div>
+            </a>
         </div>
     </div>
 
@@ -197,22 +241,22 @@
 
 <block name="footer_js">
     <script>
-        $(function () {
-            $(".nav-li").click(function () {
-                    var index = $(this).index();
-                    console.log(index);
-                    if(4== index){
-                      show_expecting();
-                      return;
-                    }
-                    
-                    $(this).siblings().find('.row-data').removeClass("active");
-                    $(this).find('.row-data').addClass("active");
-                    $(".nav-li .icon").css({ "display": "none" });
-                    $(this).find(".icon").css({ "display": "block" });
-                    
-                    $(".tab-Bar .news-box").eq(index).show().siblings(".news-box").hide();
-                }) ;
-        })
+		$(function () {
+//            $(".nav-li").click(function () {
+//                    var index = $(this).index();
+//                    console.log(index);
+//                    if(4== index){
+//                      show_expecting();
+//                      return;
+//                    }
+//
+//                    $(this).siblings().find('.row-data').removeClass("active");
+//                    $(this).find('.row-data').addClass("active");
+//                    $(".nav-li .icon").css({ "display": "none" });
+//                    $(this).find(".icon").css({ "display": "block" });
+//
+//                    $(".tab-Bar .news-box").eq(index).show().siblings(".news-box").hide();
+//                }) ;
+		})
     </script>
 </block>

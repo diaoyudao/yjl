@@ -89,13 +89,12 @@
                 <div class="input">
                     <input type="text" placeholder="请输入楼盘名称或关键词" style="text-align: center;"><span
                         class="butn">查询</span>
-                    <p>全国销售热线：400-020-3383</p>
                 </div>
                 <div class="side-list">
                     <ul>
                         <li class="side-tel">
                             <img src="/public/img/home/business/estate/detail/estate_icon1.png" alt="">
-                            <div class="tel-box">400-020-3383</div>
+                            <div class="tel-box">400-698-3383</div>
                         </li>
                         <li class="side-xin"><img src="/public/img/home/business/estate/detail/estate_icon4.png" alt="">
                             <div class="xin-box">
@@ -127,8 +126,8 @@
                     </div>
                     <div class="right">
                         <span>雅居乐的楼盘</span><br>
-                        <span>遍布全国逾<span>40</span>个城市</span>
-                        <p>雅居乐地产实现全国战略性布局，并拓展至海外——马来西亚，筑造逾100处不同发展阶段的城市豪宅、高端别墅、生活大盘、旅游地产、商业中心、星级酒店等标杆性项目。
+                        <span>遍布全国逾<span>60</span>个城市</span>
+                        <p>雅居乐地产实现全国战略性布局，并拓展至海外，筑造逾100处不同发展阶段的城市豪宅、高端别墅、生活大盘、旅游地产、商业中心、星级酒店等标杆性项目。
                         </p>
                         <a href="/business/estatelists?level_id=1000000128&city_id=&type_id=&is_sales=&keyword=">
                             开始搜索

@@ -128,6 +128,7 @@
                     <li><a href="/business/education?level_id=1000000133">教育</a></li>
                     <li><a href="/business/hotel?level_id=1000000131">酒店</a></li>
                     <li><a href="http://www.agilebuild.com.cn" target="_blank">建设</a></li>
+                    <li><a href="http://www.agile-pm.com.cn" target="_blank">代建</a></li>
                 </ul>
             </div>
             <div class="lists list3" style="display: none;">
@@ -218,6 +219,7 @@
                                 <li><a href="/business/education?level_id=1000000133">教育</a></li>
                                 <li><a href="/business/hotel?level_id=1000000131">酒店</a></li>
                                 <li><a href="http://www.agilebuild.com.cn" target="_blank">建设</a></li>
+                                <li><a href="http://www.agile-pm.com.cn" target="_blank">代建</a></li>
                             </ul>
                         </li>
                         <li>

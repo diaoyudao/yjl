@@ -101,15 +101,15 @@
             <img src="/public_en/img/mobile/business/easte/map.png" class="tags-img mt-20">
         </div>
         <div class="mt-20">
-            <h3 class="title-color min-title" style="color: #00716a;">Agile has projects in over 40 cities in China</h3>
+            <h3 class="title-color min-title" style="color: #00716a;">Agile has projects in over 60 cities in China</h3>
             <p class="mt-10">
-                Agile has implementedits strategy of geographic diversificationin China and extended its presence into
-                first overseas project in Kuala Lumpur. Agile has over 100 residential, commercial and tourism projects
-                in differentstages of development.
+                Agile has implemented its strategy of geographic diversification in China and extended its presence into
+                overseas markets. Agile has owned over 100 residential, commercial and tourism projects in different
+                stages of development.
             </p>
         </div>
 
-        <a   href="javascript:;" class="a-color aler">
+        <a href="javascript:;" class="a-color aler">
             <div class="main-btn mt-20 mb-20">Search</div>
         </a>
 
@@ -121,8 +121,8 @@
                 <ul>
                     <volist name="sales" id="item">
                         <li class="">
-                           <!-- <a href="/en/business/estatedetail?land_id={$item.land_id}">-->
-                                <a onclick='show_expecting()'>
+                            <!-- <a href="/en/business/estatedetail?land_id={$item.land_id}">-->
+                            <a onclick='show_expecting()'>
                                 <img src="{$item.image_url1}"
                                      traditional_image="{$item.image_url2}"
                                      simplified_image="{$item.image_url1}" class="tags-img">
@@ -150,7 +150,8 @@
 
                                 <!--<php> echo date('Y年m月',strtotime($item['begin_time']))</php>-->
                                 </span><br>
-                                <notempty name="item.tel">Sales hotline:<span class="phone">{$item.tel}</span></notempty>
+                                <notempty name="item.tel">Sales hotline:<span class="phone">{$item.tel}</span>
+                                </notempty>
                                 <br>
                                 <p style="height: 56px;">Address:<span class="adress">{$item.address}</span>
                                 </p>
@@ -158,7 +159,7 @@
                             </div>
 
                             <!--<a class="a-color" href="/en/business/estatedetail?land_id={$item.land_id}">-->
-                                <a onclick='show_expecting()' class="a-color">
+                            <a onclick='show_expecting()' class="a-color">
                                 <div class="btn-more1 ">Details</div>
                             </a>
 
@@ -178,7 +179,7 @@
                 <div class="container pt-10 ">
 
                     <!--<a href="/en/news/detail?id={$item.notice_id}">-->
-                        <a onclick='show_expecting()'>
+                    <a onclick='show_expecting()'>
                         <div class=" pt-5 pr-5 left pt-5 left"><img
                                     src="/public_en/img/mobile/invest/index/dot.png" class="xs-img"></div>
                         <div class="pl-5 left content" style="width: 90%;">
@@ -209,7 +210,7 @@
         <ul>
             <li class="side-tel">
                 <img src="/public_en/img/home/business/estate/detail/estate_icon1.png" alt="">
-                <div class="tel-box"><a href="tel://400-020-3383">400-020-3383</a></div>
+                <div class="tel-box"><a href="tel://400-698-3383">400-698-3383</a></div>
             </li>
             <li class="side-xin"><img src="/public_en/img/home/business/estate/detail/estate_icon4.png" alt="">
                 <div class="xin-box">
@@ -224,78 +225,78 @@
 <block name="footer_js">
     <script>
 
-        $(function () {
+		$(function () {
 
-            $("#slider-3 .slider").slide({mainCell:".bd ul",titCell:".hd li",trigger:"click",effect:"leftLoop",autoPlay:false,delayTime:700,interTime:5000,pnLoop:false,titOnClassName:"active"});
-
-
-            $("#slider-1 .slider")
-                    .slide({mainCell:".bd ul",titCell:".hd li",trigger:"mouseover",effect:"leftLoop",autoPlay:false,delayTime:850,
-                    interTime:7000,pnLoop:false,titOnClassName:"active"});
-
-            $('.land-house').click(function () {
-                var me = $(this);
-                me.find('.land-active').show();
-                me.find('.land').hide();
-
-                me.siblings().find('.land').show();
-                me.siblings().find('.land-active').hide();
-            });
+			$("#slider-3 .slider").slide({mainCell:".bd ul",titCell:".hd li",trigger:"click",effect:"leftLoop",autoPlay:false,delayTime:700,interTime:5000,pnLoop:false,titOnClassName:"active"});
 
 
-            $(".rollpic .rollpicshow").jCarouselLite({
-                auto: 2000, /*自动播放间隔时间*/
-                speed: 500, /*速度*/
-                btnNext: ".next", /*向前滚动*/
-                btnPrev: ".prev", /*向后滚动*/
-                visible: 1 /*显示数量*/
-            });
+			$("#slider-1 .slider")
+				.slide({mainCell:".bd ul",titCell:".hd li",trigger:"mouseover",effect:"leftLoop",autoPlay:false,delayTime:850,
+                interTime:7000,pnLoop:false,titOnClassName:"active"});
+
+			$('.land-house').click(function () {
+				var me = $(this);
+				me.find('.land-active').show();
+				me.find('.land').hide();
+
+				me.siblings().find('.land').show();
+				me.siblings().find('.land-active').hide();
+			});
+
+
+			$(".rollpic .rollpicshow").jCarouselLite({
+				auto: 2000, /*自动播放间隔时间*/
+				speed: 500, /*速度*/
+				btnNext: ".next", /*向前滚动*/
+				btnPrev: ".prev", /*向后滚动*/
+				visible: 1 /*显示数量*/
+			});
 //            点击查询按钮事件
 
-            $(".city  select").change(function () {
-                var value = $(".city option:selected").text();
-                $(".city .text").text(value);
+			$(".city  select").change(function () {
+				var value = $(".city option:selected").text();
+				$(".city .text").text(value);
 
-            });
-            $(".type  select").change(function () {
-                var value = $(".type option:selected").text();
-                $(".type .text").text(value);
+			});
+			$(".type  select").change(function () {
+				var value = $(".type option:selected").text();
+				$(".type .text").text(value);
 
-            });
-            $(".sales  select").change(function () {
-                var value = $(".sales option:selected").text();
-                $(".sales .text").text(value);
+			});
+			$(".sales  select").change(function () {
+				var value = $(".sales option:selected").text();
+				$(".sales .text").text(value);
 
-            });
-            var value_city = $(".city option:selected").text();
-            var value_type = $(".type option:selected").text();
-            var value_sales = $(".sales option:selected").text();
-            if ("All" != value_city)$(".city .text").text(value_city);
-            if ("All" != value_type)$(".type .text").text(value_type);
-            if ("All" != value_sales)$(".sales .text").text(value_sales);
+			});
+			var value_city = $(".city option:selected").text();
+			var value_type = $(".type option:selected").text();
+			var value_sales = $(".sales option:selected").text();
+			if ("All" != value_city) $(".city .text").text(value_city);
+			if ("All" != value_type) $(".type .text").text(value_type);
+			if ("All" != value_sales) $(".sales .text").text(value_sales);
 
-            $(".search .input .butn").click(function () {
-                var city = $(".city  select").val();
-                (city == "All") ? city = "" : city;
-                var type = $(".type  select").val();
-                (type === "All") ? type = "" : type;
-                var sales = $(".sales  select").val();
-                (sales === "All") ? sales = "" : sales;
-                var keyword = $(".search .input input").val();
-                var data = {
-                    city_id: city,
-                    type: type,
-                    is_sales: sales,
-                    keyword: keyword,
-                };
+			$(".search .input .butn").click(function () {
+				var city = $(".city  select").val();
+				(city == "All") ? city = "" : city;
+				var type = $(".type  select").val();
+				(type === "All") ? type = "" : type;
+				var sales = $(".sales  select").val();
+				(sales === "All") ? sales = "" : sales;
+				var keyword = $(".search .input input").val();
+				var data = {
+					city_id: city,
+					type: type,
+					is_sales: sales,
+					keyword: keyword,
+				};
 
-                if ("Please type the property name" == data.keyword) {
-                    data.keyword = "";
-                }
-                var url = "/business/estatelists?level_id=1000000128&" + "city_id=" + data.city_id + "&" + "type=" + data.type + "&" + "is_sales=" + data.is_sales + "&" + "keyword=" + data.keyword;
+				if ("Please type the property name" == data.keyword) {
+					data.keyword = "";
+				}
+				var url = "/business/estatelists?level_id=1000000128&" + "city_id=" + data.city_id + "&" + "type=" + data.type + "&" + "is_sales=" + data.is_sales + "&" + "keyword=" + data.keyword;
 //                location.href = url;
-                show_expecting()
-            })
-        })
+				show_expecting()
+			})
+		})
     </script>
 </block>
