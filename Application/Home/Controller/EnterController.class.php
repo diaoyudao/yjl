@@ -62,8 +62,9 @@ class EnterController extends Controller
 
 //		dump($file);
 
-        //荣耀图片
+        //荣耀图片 置顶的8张
         $honor_w['n.status'] = C('STATUS_VALID');
+        $honor_w['n.stick'] = C('STATUS_VALID');
         $honor_w['m.status'] = C('STATUS_VALID');
         $honor_w['m.name'] = $show_tags_lists['honor'];
 

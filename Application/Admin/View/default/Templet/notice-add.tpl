@@ -364,6 +364,12 @@
                 }
             }
             var parameter = condition();
+			if (1 == parameter.stick || 1 == parameter.web_stick) {
+				if ('' == $('input[name=image_url1]').val()) {
+					layer.msg('置顶的文章至少要上传一张简体图片', {icon: 2, time: 2000})
+					return false;
+				}
+			}
             // 判断是否需要有头条
             if (!$('#web-sitck').is(":hidden") && 1 == parameter.web_stick) {
                 var id = '{$notice.notice_id}';
@@ -393,6 +399,12 @@
                 }
             }
             var parameter = condition();
+			if (1 == parameter.stick || 1 == parameter.web_stick) {
+				if ('' == $('input[name=image_url1]').val()) {
+					layer.msg('置顶的文章至少要上传一张简体图片', {icon: 2, time: 2000})
+					return false;
+				}
+			}
             // 判断是否需要有头条
             if (!$('#web-sitck').is(":hidden") && 1 == parameter.web_stick) {
                 var id = '{$notice.notice_id}';
@@ -429,12 +441,6 @@
                 parameter.web_stick = 0;
             }
 
-            if (1 == parameter.stick || 1 == parameter.web_stick) {
-                if ('' == $('input[name=image_url1]').val()) {
-                    layer.msg('置顶的文章至少要上传一张简体图片', {icon: 2, time: 2000})
-                    return false;
-                }
-            }
 
             return parameter;
         }
@@ -493,7 +499,7 @@
             if ((UE.getEditor('editor').hasContents())) {
                 parameter.note = UE.getEditor('editor').getContent();
             }
-
+            console.log(parameter)
             // $('input[name=is_hot]').iCheck('check');
 
             K.doAjax(parameter, url);
