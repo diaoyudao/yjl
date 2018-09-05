@@ -21,7 +21,7 @@ class BusinessController extends Controller
 			'environment'=>'环保',
 			'hotel'=>'酒店',
 			'build'=>'建设',
-			'agency'=>'代建',
+			'agency'=>'房管',
 		];
 	
 		// $data['status'] = C('STATUS_VALID');

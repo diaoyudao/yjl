@@ -31,7 +31,7 @@
 
     <div class="container pt-20 pb-30" style="text-align:left;">
         <div class="panel panel-default">
-            <div class="panel-header main-bgc">中国总部</div>
+            <div class="panel-header main-bgc">广州总部</div>
             <div class="panel-body">
                 <ul class="chinaList f-12">
                     <li>

@@ -53,8 +53,8 @@
                     <td>{$i}</td>
                     <td>{$item.organize}</td>
                     <td>{$item.name}</td>
-                    <td>{$item.mail}</td>
                     <td>{$item.tel}</td>
+                    <td>{$item.mail}</td>
                     <td>{$item.project}</td>
                     <td>{$item.city}</td>
                     <td>{$item.times}</td>

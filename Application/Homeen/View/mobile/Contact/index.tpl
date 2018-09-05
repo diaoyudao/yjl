@@ -42,7 +42,7 @@
 
     <div class="container pt-20 pb-30" style="text-align:left;">
         <div class="panel panel-default">
-            <div class="panel-header main-bgc">Headquarters in China</div>
+            <div class="panel-header main-bgc">Headquarters in Guangzhou</div>
             <div class="panel-body">
                 <ul class="chinaList f-12">
                     <li>

@@ -37,7 +37,7 @@
                     <!--<div class="line"></div>-->
                 </div>
                 <div class="china">
-                    <span class="title1">中国总部</span>
+                    <span class="title1">广州总部</span>
                     <ul class="chinaList">
                         <li>
                             <img src="/public/img/home/contact/icon1.png">

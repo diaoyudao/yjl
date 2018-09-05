@@ -72,21 +72,18 @@
         </p>
         <p class="mt-20"><strong>Scale of Development</strong></p>
         <p class="mt-10">
-            Representing a main business of A-Living and introducing Hong Kong style property management models in 1997,
-            Agile Property Management is one of the first batches of the national property management company of first
-            class quality. Properties now managed by Agile Property Management can be found in over 65 cities and
-            regions across China, in the form of mainstream residences, upscale mansions, tourism real estates,
-            commercial buildings and office buildings. Agile Property Management manages approximately 76.2 million
-            square meters of properties, including more than 200 landmark projects, and serves more than one
-            million property owners.
+            As of 30 June 2018, properties managed by A-Living cover over 27 cities and regions across China, in a wide
+            range of properties including mainstream residences, high-end mansions, vacation properties, commercial
+            buildings and office buildings, with a total GFA under management of over 18,563,000 square meters,
+            including more than 200 projects, and serves over one million property owners.
         </p>
         <p class="mt-20"><strong>EntrepriseHonours</strong></p>
         <p class="mt-10">
-            Guided by the development strategy of management digitalization,service specialization,process
-            standardization and operation mechanization,the company was ranked 12th among the property management
-            companies in China in terms of brand value and overall strength by China Real Estate Industry Association
-            and China Real Estate Appraisal Center,and was ranked 13th out of the "China Top 100 Property Management
-            Companies"by China Index Academy.
+            Capitalizing on the development strategy of “management digitalization, service professionalization,
+            procedure standardization and operation automation”, A-Living was accredited as 2018 Top 10 Community
+            Services Providers in China, 2018 Outstanding Community Services Providers in China in terms of Customer
+            Satisfaction, 2018 Top 10 Community Services Providers in terms of Competitiveness and 2018 Top 10 Community
+            Services Providers in China in terms of Capital Market Attention.
         </p>
     </div>
 

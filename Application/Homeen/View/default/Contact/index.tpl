@@ -47,7 +47,7 @@
                     <!--<div class="line"></div>-->
                 </div>
                 <div class="china">
-                    <span class="title1">Headquarters in China</span>
+                    <span class="title1">Headquarters in Guangzhou</span>
                     <ul class="chinaList">
                         <li>
                             <img src="/public_en/img/home/contact/icon1.png">
