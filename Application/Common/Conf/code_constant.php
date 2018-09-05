@@ -80,7 +80,7 @@ return [
     'FILE_SERVER_ROOT_URL' => '',   // 文件服务器url
 
 
-    'DOMAIN_CHINESE' => 'deven.yjl.com',   // 中文版域名
-    'DOMAIN_ENGLISH' => 'deven.yjl.com',   // 英文版域名
-    'COOKIE_DOMAIN' => 'deven.yjl.com',       // cookie 域名
+    'DOMAIN_CHINESE' => 'deve.yjl.com',   // 中文版域名
+    'DOMAIN_ENGLISH' => 'deve.yjl.com',   // 英文版域名
+    'COOKIE_DOMAIN' => 'deve.yjl.com',       // cookie 域名
 ];
