@@ -132,7 +132,7 @@
                 <a target="_blank" href="http://agile.zhiye.com/Social" class="btn-more1 ">
                     社会招聘
                 </a>
-                <a target="_blank" href="http://campus.51job.com/agile2018" class="btn-more1 " style="margin-left:17px;">
+                <a target="_blank" href="http://agilezp.zhiye.com/" class="btn-more1 " style="margin-left:17px;">
                     校园招聘
                 </a>
             </div>

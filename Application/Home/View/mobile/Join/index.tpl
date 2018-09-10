@@ -92,7 +92,7 @@
             <div class="s3_content">
                 <!--href="http://jobagile.com.cn/"-->
                 <a class="btn-more1 " target="_blank" href="http://agile.zhiye.com/Social">社会招聘</a>
-                <a class="btn-more1 " target="_blank" style="margin-left:17px;" href="http://campus.51job.com/agile2018">校园招聘</a>
+                <a class="btn-more1 " target="_blank" style="margin-left:17px;" href="http://agilezp.zhiye.com/">校园招聘</a>
             </div>
         </div>
     </div>

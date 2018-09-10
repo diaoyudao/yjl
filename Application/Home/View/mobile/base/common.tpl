@@ -123,7 +123,7 @@
                 <dd>
                     <ul>
                         <li><a href="/join/staff?level_id=1000000148">员工发展</a></li>
-                        <li><a target="_blank" href="http://campus.51job.com/agile2018">校园招聘</a></li>
+                        <li><a target="_blank" href="http://agilezp.zhiye.com/">校园招聘</a></li>
                         <li><a target="_blank" href="http://agile.zhiye.com/Social">社会招聘</a></li>
                     </ul>
                 </dd>
@@ -219,7 +219,7 @@
                 <dd>
                     <ul>
                         <li><a href="/join/staff?level_id=1000000148">员工发展</a></li>
-                        <li><a target="_blank" href="http://campus.51job.com/agile2018">校园招聘</a></li>
+                        <li><a target="_blank" href="http://agilezp.zhiye.com/">校园招聘</a></li>
                         <li><a target="_blank" href="http://agile.zhiye.com/Social">社会招聘</a></li>
                     </ul>
                 </dd>

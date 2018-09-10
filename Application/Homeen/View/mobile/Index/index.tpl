@@ -199,7 +199,7 @@
             <div class="col-xs-4 pl-10">
                 <div class="row cl main-btn-m"><a href="http://agile.zhiye.com/Social" target="_blank"><img class="job-btn-img" src="/public_en/img/mobile/index/job-1.jpg">&nbsp;Open Recruitment</a>
                 </div>
-                <div class="row mt-10 main-btn-m"><a href="http://campus.51job.com/agile2018" target="_blank"><img class="job-btn-img" src="/public_en/img/mobile/index/job-2.jpg">&nbsp;Campus Recruitment</a>
+                <div class="row mt-10 main-btn-m"><a href="http://agilezp.zhiye.com/" target="_blank"><img class="job-btn-img" src="/public_en/img/mobile/index/job-2.jpg">&nbsp;Campus Recruitment</a>
                 </div>
             </div>
         </div>

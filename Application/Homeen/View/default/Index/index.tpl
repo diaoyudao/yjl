@@ -280,7 +280,7 @@ Such an attitude makes Agile stands out.</p>
                 <a target="_blank" href="http://agile.zhiye.com/Social" class="btn-more aler">
                    Open Recruitment
                 </a>
-                <a target="_blank" href="http://campus.51job.com/agile2018" class="btn-more aler" style="margin-left:17px;">
+                <a target="_blank" href="http://agilezp.zhiye.com/" class="btn-more aler" style="margin-left:17px;">
                    Campus Recruitment
                 </a>
             </div>

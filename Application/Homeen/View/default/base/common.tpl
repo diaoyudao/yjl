@@ -147,7 +147,7 @@
             <div class="lists list4" style="display: none;">
                 <ul>
                     <li><a href="/en/join/staff?level_id=1000000148">Employee Development</a></li>
-                    <li><a class="" target="_blank" href="http://campus.51job.com/agile2018">Campus Recruitment</a></li>
+                    <li><a class="" target="_blank" href="http://agilezp.zhiye.com/">Campus Recruitment</a></li>
                     <li><a class="" target="_blank" href="http://agile.zhiye.com/Social">Open Recruitment</a></li>
                 </ul>
             </div>
@@ -249,7 +249,7 @@
                             <ul class="item-list">
 
                                 <li><a onclick="show_expecting()" href="javascript:;">Employee Development</a></li>
-                                <li><a class="" target="_blank" href="http://campus.51job.com/agile2018">Campus Recruitment</a></li>
+                                <li><a class="" target="_blank" href="http://agilezp.zhiye.com/">Campus Recruitment</a></li>
                                 <li><a class="" target="_blank" href="http://agile.zhiye.com/Social">Open Recruitment</a></li>                            </ul>
                         </li>
                         <li>

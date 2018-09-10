@@ -129,7 +129,7 @@
             <!--</div>-->
             <div class="s3_content">
                 <a class="btn-more1" target="_blank" href="http://agile.zhiye.com/Social" style="font-size: 15px">Open Recruitment</a>
-                <a class="btn-more1" target="_blank" style="margin-left:17px;font-size: 15px" href="http://campus.51job.com/agile2018">Campus Recruitment</a>
+                <a class="btn-more1" target="_blank" style="margin-left:17px;font-size: 15px" href="http://agilezp.zhiye.com/">Campus Recruitment</a>
             </div>
         </div>
     </div>

@@ -120,7 +120,7 @@
                 <dd>
                     <ul>
                         <li><a class="aler"  href="javascript:;">Employee Development</a></li>
-                        <li><a class="" target="_blank" href="http://campus.51job.com/agile2018">Campus Recruitment</a></li>
+                        <li><a class="" target="_blank" href="http://agilezp.zhiye.com/">Campus Recruitment</a></li>
                         <li><a class="" target="_blank" href="http://agile.zhiye.com/Social">Open Recruitment</a></li>
                     </ul>
                 </dd>
@@ -213,7 +213,7 @@
                 <dd>
                     <ul>
                         <li><div class="aler">Employee Development</div></li>
-                        <li><a class="" target="_blank" href="http://campus.51job.com/agile2018">Campus Recruitment</a></li>
+                        <li><a class="" target="_blank" href="http://agilezp.zhiye.com/">Campus Recruitment</a></li>
                         <li><a class="" target="_blank" href="http://agile.zhiye.com/Social">Open Recruitment</a></li>
                     </ul>
                 </dd>

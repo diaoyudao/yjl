@@ -91,7 +91,7 @@
             </div>
             <div class="s3_content">
                 <a class="btn-more1 " style="font-size: 0.8rem;padding: 0.5rem 1rem" target="_blank" href="http://agile.zhiye.com/Social">Open Recruitment</a>
-                <a class="btn-more1 " style="margin-left:17px;font-size: 0.8rem;padding: 0.5rem 1rem" target="_blank" href="http://campus.51job.com/agile2018">Campus Recruitment</a>
+                <a class="btn-more1 " style="margin-left:17px;font-size: 0.8rem;padding: 0.5rem 1rem" target="_blank" href="http://agilezp.zhiye.com/">Campus Recruitment</a>
             </div>
         </div>
     </div>
