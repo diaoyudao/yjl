@@ -96,7 +96,7 @@
                         <li><a href="/en/business/education?level_id=1000000133">Education</a></li>
                         <li><a href="/en/business/hotel?level_id=1000000131">Hotel</a></li>
                         <li><a href="http://www.agilebuild.com.cn" target="_blank">Construction</a></li>
-                        <li><a href="http://www.agile-pm.com.cn" target="_blank">AGILE P&M</a></li>
+                        <li><a href="javascript:;"  class="aler">AGILE P&M</a></li>
                     </ul>
                 </dd>
             </dl>
@@ -189,7 +189,7 @@
                         <li>
                             <a href="http://www.agilebuild.com.cn" target="_blank">Construction</a>
                         </li>
-                        <li><a href="http://www.agile-pm.com.cn" target="_blank">AGILE P&M</a></li>
+                        <li><a href="javascript:;"  class="aler">AGILE P&M</a></li>
                     </ul>
                 </dd>
             </dl>

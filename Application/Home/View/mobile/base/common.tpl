@@ -99,7 +99,7 @@
                         <li><a href="/business/education?level_id=1000000133">教育</a></li>
                         <li><a href="/business/hotel?level_id=1000000131">酒店</a></li>
                         <li><a href="http://www.agilebuild.com.cn" target="_blank">建设</a></li>
-                        <li><a href="http://www.agile-pm.com.cn" target="_blank">房管</a></li>
+                        <li><a href="javascript:;"  class="aler">房管</a></li>
                     </ul>
                 </dd>
             </dl>
@@ -123,7 +123,7 @@
                 <dd>
                     <ul>
                         <li><a href="/join/staff?level_id=1000000148">员工发展</a></li>
-                        <li><a target="_blank" href="http://agilezp.zhiye.com/">校园招聘</a></li>
+                        <li><a target="_blank" href="http://agilezp.zhiye.com/" class="aler">校园招聘</a></li>
                         <li><a target="_blank" href="http://agile.zhiye.com/Social">社会招聘</a></li>
                     </ul>
                 </dd>
@@ -193,7 +193,7 @@
                             <a href="http://www.agilebuild.com.cn" target="_blank">建设</a>
                         </li>
                          <li>
-                            <a href="http://www.agile-pm.com.cn" target="_blank">房管</a>
+                            <a href="javascript:;"  class="aler">房管</a>
                         </li>
 
                     </ul>

@@ -268,7 +268,7 @@
             <!--&lt;!&ndash;<p class="en-title">十年树木，百年树人。雅居乐的卓越蓝图不仅是创建优质的生活典范，</p>&ndash;&gt;-->
             <!--&lt;!&ndash;<p class="en-title">更是致力与社会共建一个美好未来</p>&ndash;&gt;-->
             <!--</div>-->
-            <a target="_blank" href="http://www.agile-pm.com.cn" class="btn-more ">了解更多</a>
+            <a  href="javascript:;" class="btn-more aler">了解更多</a>
 
         </div>
     </div>
