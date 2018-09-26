@@ -76,7 +76,8 @@
                             class="Hui-iconfont menu_dropdown-arrow main-color">&#xe6d5;</i></dt>
                 <dd>
                     <ul>
-                        <li><a href="/en/enter/group?level_id=1000000126">Company Profile</a></li>
+                        <!--<li><a href="/en/enter/group?level_id=1000000126">Company Profile</a></li>-->
+                        <li><a onclick="show_expecting()" href="javascript:;">Company Profile</a></li></li>
                         <li><a href="/en/enter/chair?level_id=1000000127">Chairman's Corner</a></li>
                         <li><a onclick="show_expecting()" href="javascript:;">Milestones</a></li>
                         <li><a onclick="show_expecting()" href="javascript:;">Awards and Accreditations</a></li>
@@ -96,7 +97,7 @@
                         <li><a href="/en/business/education?level_id=1000000133">Education</a></li>
                         <li><a href="/en/business/hotel?level_id=1000000131">Hotel</a></li>
                         <li><a href="http://www.agilebuild.com.cn" target="_blank">Construction</a></li>
-                        <li><a href="javascript:;"  class="aler">AGILE P&M</a></li>
+                        <li><a href="http://www.agile-pm.com.cn/"  target="_blank">AGILE P&M</a></li>
                     </ul>
                 </dd>
             </dl>
@@ -166,7 +167,8 @@
                             class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
                 <dd>
                     <ul>
-                        <li><a href="/en/enter/group?level_id=1000000126">Company Profile</a></li>
+                        <!--<li><a href="/en/enter/group?level_id=1000000126">Company Profile</a></li>-->
+                        <li><div class="aler"  >Company Profile</div></li>
                         <li><a href="/en/enter/chair?level_id=1000000127">Chairman's Corner</a></li>
                         <li><div class="aler"  >Milestones</div></li>
                         <li><div class="aler"  >Awards and Accreditations</div></li>
@@ -189,7 +191,7 @@
                         <li>
                             <a href="http://www.agilebuild.com.cn" target="_blank">Construction</a>
                         </li>
-                        <li><a href="javascript:;"  class="aler">AGILE P&M</a></li>
+                        <li><a href="http://www.agile-pm.com.cn/"  target="_blank">AGILE P&M</a></li>
                     </ul>
                 </dd>
             </dl>

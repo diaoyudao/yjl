@@ -45,7 +45,8 @@
                             2005. Agile's brand has become a household name in the nationwide with the coveted status as
                             "China's Well-known Trademark".
                         </p>
-                        <a href="/en/enter/group?level_id=1000000126" style="visibility: hidden">More</a>
+                        <!--<a href="/en/enter/group?level_id=1000000126" style="visibility: hidden">More</a>-->
+                        <a onclick="show_expecting()" href="javascript:;" style="visibility: hidden">More</a>
                     </div>
                 </li>
                 <li class="sce">
