@@ -2,6 +2,7 @@
 
 <block name="head_common1">
     <link rel="stylesheet" href="/public/css/home/enter/enter-group.css">
+    <link rel="stylesheet" href="/public/css/home/enter/enter-duty.css">
     <style>
         .word-box img{
             max-width: 800px;
@@ -26,7 +27,7 @@
     <div class="content container">
         <p><span><a href="/index">首页</a></span>&nbsp;&nbsp;&nbsp; > &nbsp;&nbsp;<span><a
                         href="/enter/index?level_id=1000000123">走进雅居乐</a></span>&nbsp;&nbsp;
-            > &nbsp;&nbsp;<span>社会责任</span></p>
+            > &nbsp;&nbsp;<span>公益慈善</span></p>
         <h2>公益慈善</h2>
 
 
@@ -119,8 +120,73 @@
                 雅居乐董事局主席兼总裁陈卓林先生表示，这是雅居乐发展慈善公益事业的初衷，也是雅居乐“远见，心建，共建未来”企业文化理念延伸至社会责任领域的具体呈现。
             </p>
 
-
         </div>
+        <ul class="list1">
+            <li class="col-xs-4">
+                <p>
+                    <a href="/enter/educationlists?level_id={$education_notices[0]['level_id']}"><span class="name">兴教助学</span></a>
+                    <a href="/enter/educationlists?level_id=1000000167" style="line-height: 47px;float: right;font-size: 16px;color: #9d7cb3;vertical-align: middle;">查看更多></a>
+
+                </p>
+                <a href="/news/detail?id={$education_notices[0].notice_id}">
+                    <img src="{$education_notices[0]['image_url1']}"
+                         traditional_image="{$education_notices[0]['image_url2']}"
+                         simplified_image="{$education_notices[0]['image_url1']}" alt="">
+                </a>
+                <p class="title"><a href="/news/detail?id={$education_notices[0].notice_id}">
+                        {$education_notices[0]['name']}</a></p>
+                <ul class="list2">
+                    <li class="last"><div class="li-left">·</div><div class="li-right"><a
+                                    href="/news/detail?id={$education_notices[1].notice_id}">{$education_notices[1]['name']}</a></div>
+                    </li>
+                    <li class="last"><div class="li-left">·</div><div class="li-right"><a
+                                    href="/news/detail?id={$education_notices[2].notice_id}">{$education_notices[2]['name']}</a></div></li>
+                </ul>
+            </li>
+            <li class="col-xs-4">
+                <p>
+                    <a href="/enter/otherlists?level_id={$other_notices[0]['level_id']}"><span
+                                class="name">救灾扶贫及其他</span></a>
+                    <a href="/enter/otherlists?level_id=1000000169" style="line-height: 47px;float: right;font-size: 16px;color: #9d7cb3;vertical-align: middle;">查看更多></a>
+
+                </p>
+                <a href="/news/detail?id={$other_notices[0].notice_id}">
+                    <img src="{$other_notices[0]['image_url1']}"
+                         traditional_image="{$other_notices[0]['image_url2']}"
+                         simplified_image="{$other_notices[0]['image_url1']}" alt="">
+                </a>
+                <p class="title">
+                    <a href="/news/detail?id={$other_notices[0].notice_id}">{$other_notices[0]['name']}</a>
+                </p>
+                <ul class="list2">
+                    <li class="last "><div class="li-left ">· </div><div class="li-right "><a href="/news/detail?id={$other_notices[1].notice_id}">{$other_notices[1]['name']}</a></div></li>
+                    <li class="last "><div class="li-left">·</div><div class="li-right"><a href="/news/detail?id={$other_notices[2].notice_id}">{$other_notices[2]['name']}</a></div></li>
+                </ul>
+            </li>
+            <li class="col-xs-4">
+                <p>
+                    <a href="/enter/environmentlists?level_id={$environment_notices[0]['level_id']}"><span
+                                class="name">环境保护</span></a>
+                    <a href="/enter/environmentlists?level_id=1000000168" style="line-height: 47px;float: right;font-size: 16px;color: #9d7cb3;vertical-align: middle;">查看更多></a>
+
+                </p>
+                <a href="/news/detail?id={$environment_notices[0].notice_id}">
+                    <img src="{$environment_notices[0]['image_url1']}"
+                         traditional_image="{$environment_notices[0]['image_url2']}"
+                         simplified_image="{$environment_notices[0]['image_url1']}" alt="">
+                </a>
+                <p class="title">
+                    <a href="/news/detail?id={$environment_notices[0].notice_id}">{$environment_notices[0].name}</a>
+                </p>
+                <ul class="list2">
+                    <li class="last"><div class="li-left">·</div><div class="li-right"><a
+                                    href="/news/detail?id={$environment_notices[1].notice_id}">{$environment_notices[1].name}</div></a>
+                    </li>
+                    <li class="last"><div class="li-left">·</div><div class="li-right"><a
+                                    href="/news/detail?id={$environment_notices[2].notice_id}">{$environment_notices[2].name}</a></div></li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </block>
 

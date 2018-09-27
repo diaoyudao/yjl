@@ -40,7 +40,7 @@
         <div class="maskWraper" style=""> 
         <a href="/enter/duty?level_id=1000000138">
             <img src="/public/img/mobile/enter/pic2.jpg" >
-            <div class="me-maskBar text-c">社会责任</div>
+            <div class="me-maskBar text-c">公益慈善</div>
             </a>
         </div>
     </div>
@@ -71,7 +71,7 @@
     </div>
     <a href="/enter/history?level_id=1000000140"><div class="row cl main-btn" >查看更多</div></a>
 </div>
-<div class="container row cl mt-30 mb-30" >
+<!--<div class="container row cl mt-30 mb-30" >
     <div class="row txt-center pb-30"><span class="main-title">荣誉集锦</span></div>
     <div class="rollpic cl txt-center " style="width:100%;display: block;margin:0 auto;"> 
         <a href="javascript:void(0)" class="prev"></a>
@@ -88,7 +88,7 @@
       </div>
     <a href="javascript:void(0)" class="next"></a>
     </div>
-</div>
+</div>-->
 
 
 </block>

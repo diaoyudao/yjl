@@ -68,7 +68,7 @@
     </div>
     <a onclick="show_expecting()" href="javascript:;"><div class="row cl main-btn" >More</div></a>
 </div>
-<div class="container row cl mt-30 mb-30" >
+<!--<div class="container row cl mt-30 mb-30" >
     <div class="row txt-center pb-30"><span class="main-title">Awards & Recognitions</span></div>
     <div class="rollpic cl txt-center " style="width:100%;display: block;margin:0 auto;"> 
         <a href="javascript:void(0)" class="prev"></a>
@@ -85,7 +85,7 @@
       </div>
     <a href="javascript:void(0)" class="next"></a>
     </div>
-</div>
+</div>-->
 
 
 </block>

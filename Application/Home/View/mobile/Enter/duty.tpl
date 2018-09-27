@@ -113,6 +113,99 @@
             “雅居乐愿意通过持续的投入，尽企业之所能，最大限度的帮助所需之人。” 雅居乐董事局主席兼总裁陈卓林先生表示，这是雅居乐发展慈善公益事业的初衷，也是雅居乐“远见，心建，共建未来”企业文化理念延伸至社会责任领域的具体呈现。
         </p>
 
+        <div class="mt-20 bg-fff">
+            <div class="top-box">
+                <div class="web-stick">兴教助学</div>
+            </div>
+            <div class="bottom-box">
+                <div class="container pt-10 pb-10">
+                    <div class="left col-xs-4">
+                        <a href="/news/detail?id={$education_notices[0].notice_id}">
+                            <img src="{$education_notices[0]['image_url1']}"
+                                 traditional_image="{$education_notices[0]['image_url2']}"
+                                 simplified_image="{$education_notices[0]['image_url1']}" class="image">
+                        </a>
+                    </div>
+                    <div class="right col-xs-7">
+                        <p class="">
+                            <a href="/news/detail?id={$education_notices[0].notice_id}">
+                                {$education_notices[0]['name']}
+                            </a>
+                        </p>
+
+                        <a href="/enter/educationlists?level_id=1000000167" class="fff  ">
+                            <div class="btn-more2 mt-15">
+                                查看更多
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-20 bg-fff">
+            <div class="top-box">
+                <div class="web-stick" style="width: 14rem;">救灾扶贫及其他</div>
+            </div>
+            <div class="bottom-box">
+                <div class="container pt-10 pb-10">
+                    <div class="left col-xs-4">
+                        <a href="/news/detail?id={$other_notices[0].notice_id}">
+                            <img src="{$other_notices[0]['image_url1']}"
+                                 traditional_image="{$other_notices[0]['image_url2']}"
+                                 simplified_image="{$other_notices[0]['image_url1']}" class="image">
+                        </a>
+                    </div>
+                    <div class="right col-xs-7">
+                        <p class="">
+                            <a href="/news/detail?id={$other_notices[0].notice_id}">
+                                {$other_notices[0]['name']}
+                            </a>
+                        </p>
+
+                        <a href="/enter/otherlists?level_id=1000000169" class="fff">
+                            <div class="btn-more2 mt-15">
+                                查看更多
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-20 bg-fff">
+            <div class="top-box">
+                <div class="web-stick">环境保护</div>
+            </div>
+            <div class="bottom-box">
+                <div class="container pt-10 pb-10">
+                    <div class="left col-xs-4">
+                        <a href="/news/detail?id={$environment_notices[0].notice_id}">
+                            <img src="{$environment_notices[0]['image_url1']}"
+                                 traditional_image="{$environment_notices[0]['image_url2']}"
+                                 simplified_image="{$environment_notices[0]['image_url1']}" class="image">
+                        </a>
+                    </div>
+                    <div class="right col-xs-7">
+                        <p>
+                            <a href="/news/detail?id={$environment_notices[0].notice_id}">
+                                {$environment_notices[0]['name']}
+                            </a>
+                        </p>
+
+                        <a href="/enter/environmentlists?level_id=1000000168" class="fff">
+                            <div class="btn-more2 mt-15">
+                                查看更多
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
 
     </div>
 

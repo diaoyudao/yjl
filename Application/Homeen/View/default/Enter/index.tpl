@@ -113,7 +113,7 @@
         </div>
         <span><a onclick="show_expecting()" href="javascript:;" class="btn-more">More</a></span>
     </div>
-    <div class="section3">
+    <!--<div class="section3">
         <div class="banner" id="slider1">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -139,7 +139,7 @@
             <span class="next arrow-right"><img src="/public_en/img/home/common/btn_next.png" alt=""></span>
             <div class="pagination"></div>
         </div>
-    </div>
+    </div>-->
 
     <!--<div class="section4">-->
     <!--<h2>集体画册</h2>-->

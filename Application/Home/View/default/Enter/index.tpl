@@ -51,7 +51,7 @@
                     </div>
                 </li>
                 <li class="tri">
-                    <div class="title">社会责任</div>
+                    <div class="title">公益慈善</div>
                     <div class="coverbox">
                         <img src="/public/img/home/enter/index/index_sec1_p3.jpg" alt="">
                         <div class="cover" style="visibility: hidden"></div>
@@ -91,7 +91,7 @@
         </div>
         <span><a href="/enter/history?level_id=1000000140" class="btn-more">了解更多</a></span>
     </div>
-    <div class="section3">
+    <!--<div class="section3">
         <div class="banner" id="slider1">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -117,7 +117,7 @@
             <span class="next arrow-right"><img src="/public/img/home/common/btn_next.png" alt=""></span>
             <div class="pagination"></div>
         </div>
-    </div>
+    </div>-->
 
     <!--<div class="section4">-->
     <!--<h2>集体画册</h2>-->

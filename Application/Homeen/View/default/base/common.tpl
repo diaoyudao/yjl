@@ -119,7 +119,7 @@
                     <li><a onclick="show_expecting()" href="javascript:;">Company Profile</a></li>
                     <li><a href="/en/enter/chair?level_id=1000000127">Chairman's Corner</a></li>
                     <li><a onclick="show_expecting()" href="javascript:;">Milestones</a></li>
-                    <li><a onclick="show_expecting()" href="javascript:;">Awards and Accreditations</a></li>
+                    <!--<li><a onclick="show_expecting()" href="javascript:;">Awards and Accreditations</a></li>-->
                     <li><a onclick="show_expecting()" href="javascript:;">Social Responsibilities</a></li>
                     <li><a href="/en/enter/publicity?level_id=1000000137">Corporate Publicity</a></li>
                 </ul>
@@ -219,7 +219,7 @@
                                 <li><a onclick="show_expecting()" href="javascript:;">Company Profile</a></li>
                                 <li><a href="/en/enter/chair?level_id=1000000127">Chairman's Corner</a></li>
                                 <li><a onclick="show_expecting()" href="javascript:;">Milestones</a></li>
-                                <li><a onclick="show_expecting()" href="javascript:;">Awards and Accreditations</a></li>
+                                <!--<li><a onclick="show_expecting()" href="javascript:;">Awards and Accreditations</a></li>-->
                                 <li><a onclick="show_expecting()" href="javascript:;">Social Responsibilities</a></li>
                                 <li><a href="/en/enter/publicity?level_id=1000000137">Corporate Publicity</a></li>
                             </ul>

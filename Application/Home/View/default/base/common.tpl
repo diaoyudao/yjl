@@ -115,8 +115,8 @@
                     <li><a href="/enter/group?level_id=1000000126">集团介绍</a></li>
                     <li><a href="/enter/chair?level_id=1000000127">主席专区</a></li>
                     <li><a href="/enter/history?level_id=1000000140">发展历程</a></li>
-                    <li><a href="/enter/honor?level_id=1000000139">荣誉集锦</a></li>
-                    <li><a href="/enter/duty?level_id=1000000138">社会责任</a></li>
+                    <!--<li><a href="/enter/honor?level_id=1000000139">荣誉集锦</a></li>-->
+                    <li><a href="/enter/duty?level_id=1000000138">公益慈善</a></li>
                     <li><a href="/enter/publicity?level_id=1000000137">企业宣传</a></li>
                 </ul>
             </div>
@@ -206,8 +206,8 @@
                                 <li><a href="/enter/group?level_id=1000000126">集团介绍</a></li>
                                 <li><a href="/enter/chair?level_id=1000000127">主席专区</a></li>
                                 <li><a href="/enter/history?level_id=1000000140">发展历程</a></li>
-                                <li><a href="/enter/honor?level_id=1000000139">荣誉集锦</a></li>
-                                <li><a href="/enter/duty?level_id=1000000138">社会责任</a></li>
+                                <!--<li><a href="/enter/honor?level_id=1000000139">荣誉集锦</a></li>-->
+                                <li><a href="/enter/duty?level_id=1000000138">公益慈善</a></li>
                                 <li><a href="/enter/publicity?level_id=1000000137">企业宣传</a></li>
                             </ul>
                         </li>
