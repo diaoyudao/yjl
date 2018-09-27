@@ -1,5 +1,4 @@
-
-#duty .pic-box {
+.pic-box {
     position: relative;
     height: 490px;
     overflow: hidden;
@@ -22,38 +21,38 @@
     /*color: white;*/
 /*}*/
 
-#duty .content {
+ .content {
     padding: 20px 0 240px;
     color: black;
     text-align: center;
 }
 
-#duty .content > p {
+ .content > p {
     text-align: left;
     margin-bottom: 90px;
     margin-top: 50px;
 }
 
-#duty .content > p >span a {
+ .content > p >span a {
     color: #828282;
 }
 
-#duty .content a img {
+ .content a img {
     width: 320px;
     height: 240px;
 }
 
-#duty .content h2 {
+ .content h2 {
     font-weight: bold;
     margin-bottom: 50px;
 }
 
-#duty .content .list1 > li {
+ .content .list1 > li {
     text-align: left;
     color: #828282;
 }
 
-#duty .content .list1 > li .name {
+ .content .list1 > li .name {
     display: inline-block;
     padding: 10px;
     font-size: 20px;
@@ -63,12 +62,12 @@
     margin-bottom: 45px;
 }
 
-#duty .content .list1 > li > img {
+ .content .list1 > li > img {
     width: 100%;
     max-width: 320px;
 }
 
-#duty .content .list1 > li .title {
+ .content .list1 > li .title {
     text-align: left;
     margin-top: 25px;
     margin-bottom: 12px;
@@ -79,7 +78,7 @@
 }
 
 
-#duty .more {
+ .more {
     float: right;
     height: 30px;
     position: relative;
@@ -89,11 +88,11 @@
     right: 0;
 }
 
-#duty .more a {
+ .more a {
     color: #5a358e;
 }
 
-#duty .more .icon {
+ .more .icon {
     position: relative;
     top: 2px;
     width: 14px;
@@ -104,15 +103,15 @@
 
 
 
-#duty .content .list2 > li {
+ .content .list2 > li {
     overflow: hidden;
     margin-bottom: 10px;
 }
 
-#duty .list1 .title, #duty .list1 .list2 {
+ .list1 .title, #duty .list1 .list2 {
     max-width: 300px;
 }
-#duty .list1 .title, #duty .list1 .list2 div{
+.list1 .title, #duty .list1 .list2 div{
     height: 19px;
     overflow: hidden;
     /*white-space: nowrap;*/
